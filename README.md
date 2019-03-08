@@ -3,8 +3,34 @@
 Education Data Science Practicum Spring 2019
 
 Project Started: 1/30/2019  
-Updated: 2/23/2019
+Updated: 3/9/2019
 
+## See "Journal.md" for progress
+
+#### Accomplished so far:
+1. Data collection: 
+	- gain all federal appellate court opinions
+2. Pre-Analysis:
+	- made sure vector representation of opinions is possible (works for first circuit)
+3. Text Cleaning (lots of regex nightmares!):
+	- need to build metadata, for each opinion:
+		- authoring judge
+		- year
+		- court
+	- identify documents that contain dissents/concurrences from other judges
+	- identify documents that are per curiam
+4. Modeling:
+	- average document vectors for each judge to get judge vectors
+	- PCA on judge vectors to look for clusters (for 1st circuit)
+
+To-Do:
+1. Part (3) above is incomplete. JSON raw data's "year" is sparse. I need to extract year from the opinions.
+2. Once Part (3) is complete, de-mean documents by court and by year. 
+3. How to de-mean by topic? I need topic labels. Ash and Chen won't share metadata with topic labels :(
+4. After de-meaning, average for each judge to get judge vectors.
+5. Plot for all appellate courts, look for blue vs red ideological separation 
+
+***
 ### Purpose:
 There are lots of models that can be used to estimate ideal points of judges (i.e. Poole and Rosenthal, Martin-Quinn, Clinton, etc). These models use mostly voting records of the judges. The purpose of this study is to try ideal-point modeling using the text of opinions instead of voting behavior. The subjects of the study are federal judges in the Appellate Courts of the United States (i.e. 1st Circuit Court of Appeals).    
 
