@@ -32,38 +32,38 @@
 
 ## Week 5: 2/25/2019 + Week 6: 3/4/2019
 
-- Goal: Work on improving text-preprocessing, improve on doc2vec code, try LDA
+- Goal: Work on improving text-preprocessing, improve on doc2vec code, Martin-Quinn
 
 #### Accomplishments:
 
-1. Setting things up on HPC Cluster so I can try running doc2vec on more than 1000 opinions    
-    - I found topic labels on this site: http://artsandsciences.sc.edu/poli/juri/databases.htm but it's only a random sample AND linkage will be tricky, particularly if the case names are different, e.g. "United States vs U.S."
-    - Now that I have vector representations of each decision and I know this works, so I can build metadata: 
-    	1. Only keep main opinion (remove dissents)
-    	2. Keep name of the judge who wrote the opinion
-            - Use Regex to do this
-            - Sometimes District Judge delivers opinion in the Appellate Court. Discarding these.
-            - Discard Per Curiam opinions
-            - Sometimes Supreme Court Justice "sits by designation". Discard these.
-            - There aren't many cases where a judge dissents or dissents. Discard these for now.
-2. Started data inventory / Metadata
-    - create a single .csv that contains all documents (or one .csv for each court). 
-    - The .csv should include the .json file name and the year
-    - Need to get judge name    
-3. Learned about Martin-Quinn Scores (which has little to do with text analysis but I have been procrastinating on learning this properly)
+1. Moved analysis to HPC Cluster, Text Cleaning, Collect Metadata from Opinions (Only for First Circuit for Now)
+    - Only keep main opinion (remove dissents, concurrences, per curiam)
+        - for now, just not using opinion if there is a dissent/concur/per curiam
+        - maybe i can separate dissents later, but there aren't many in Appellate courts anyway
+    - Keep name of the judge who wrote the opinion
+        - Use Regex to do this (this was a nightmare!)
+        - Sometimes District Judge delivers opinion in the Appellate Court. Discarding these.
+        - Sometimes Supreme Court Justice "sits by designation". Discard these.
+    - Create metadata spreadsheet
+        - For each opinion, includes:
+            - urls
+            - whether plain_text is available
+            - whether html is available
+            - year
+            - court name
+    - Get judge data
+        - I can use wikipedia for this (e.g. judge birth year, appointed by)
+2. Learned about Martin-Quinn Scores (which has little to do with text analysis but I have been procrastinating on learning this properly)
 	- Code simple 1PL (Rasch) Model in Stan (just borrowed from documentation)
 	- Ran in NYU HPC (had some trouble with StanHeaders on Rstan)
 	- Supreme Court voting data is here: http://scdb.wustl.edu/data.php
-4. Sent email to Prof Elliott Ash and Prof Daniel Chen for Federal Appellate Court Metadata
+    - I will be working on Bayesian Ideal Point Estimation research with Ying, I might transition away from text to this
+3. Sent email to Prof Elliott Ash and Prof Daniel Chen for Federal Appellate Court Metadata
 	- Chen responded: only willing to share data with co-authors (too expensive to build dataset)
-5. Sent third email to Prof Daniel Martin Katz for Federal Appellate Court Metadata
+4. Sent third email to Prof Daniel Martin Katz for Federal Appellate Court Metadata
 
-#### To-Do:
-- Need to get "Topic" for cases
-- Need to complete data inventory
 
 #### Thoughts:
-- From 2018, [How Conservatives Weaponized the First Amendment](https://www.nytimes.com/2018/06/30/us/politics/first-amendment-conservatives-supreme-court.html), based off of a quote by Elena Kagan. It could be interesting to zoom in on First Amendment-related decisions from federal appellate courts (if there are enough) and look for patterns. 
 - I would like to replicate Martin-Quinn scores as well (which looks complicated but manageable using Stan -- most difficult part would be using the dynamic linear model algorithm if it is not already available)
 
 #### Misc Notes:

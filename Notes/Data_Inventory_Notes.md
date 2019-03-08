@@ -47,6 +47,6 @@ After obtaining judges from court documents, I need to get judge metadata
 - 27414 do not have unique author??
 
 - Why do so many cases have non-unique or misc author?
-	- Some are written by 
+	- Some are written by district court judges
 
 
