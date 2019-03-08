@@ -1,8 +1,10 @@
-rm(list=ls())
-
 ##################################################
 # 1. Set Up
 ##################################################
+
+# Set Court ***
+i=2
+
 require(rjson)
 require(tm)
 require(SnowballC)
@@ -23,22 +25,6 @@ require(irlba) # fast and memory efficient methods for truncated singular value 
 # devtools::install_github('mlampros/fastTextR')
 require(fastTextR)
 
-# Number of Decisions
-#########################
-
-# Resources
-#########################
-# https://cran.r-project.org/web/packages/textTinyR/vignettes/word_vectors_doc2vec.html
-
-# File Paths
-#########################
-# stored on usb drive bc file is large
-# data is available here: https://www.courtlistener.com/api/bulk-info/
-
-decisions_path = 'data/ca1/'
-decisions_files = list.files(decisions_path)
-n = length(decisions_files)
-
 # Text Cleaning Functions
 #########################
 htmlBreaks <- function(htmlString) {
@@ -50,32 +36,38 @@ htmlRemove <- function(htmlString) {
   return(gsub("<.*?>", "", htmlString))
 }
 
+# File Paths
+#########################
+# data is available here: https://www.courtlistener.com/api/bulk-info/
+courts = paste('ca',c(seq(1,11),'dc'),sep='')
+# decisions_path = paste('data/',courts,'/',sep='')
+decisions_path = paste('/scratch/cs2737/',courts,'/',sep='')
+decisions_files = sapply(decisions_path, function(x) list.files(x))
+n_cases = unlist(lapply(decisions_files,length))
 
 # Load Data
 #########################
-decisions = rep(NA,n)
+decisions = list()
 
-for(i in 1:n){
-  result = fromJSON(file=paste(decisions_path, decisions_files[i],sep=''))
+decisions = rep(NA,n_cases[i])
+for(j in 1:n_cases[i]){
+  result = fromJSON(file=paste(decisions_path[i], decisions_files[[i]][j],sep=''))
   if(result$html_with_citations != ''){
-    decisions[i] = result$html_with_citations  
+    decisions[j] = result$html_with_citations  
   } else if(result$plain_text != ''){
-    decisions[i] = result$plain_text  
+    decisions[j] = result$plain_text  
   }
-  decisions[i] = htmlRemove(decisions[i])
-  decisions[i] = htmlBreaks(decisions[i])
-  if(i %% 100==0) print(paste('loading opinion',i))
+  decisions[j] = htmlRemove(decisions[j])
+  decisions[j] = htmlBreaks(decisions[j])
+  if(j %% 2000==0) print(paste('loading opinion',j,'from court',courts[i]))
 }
 
-# REMOVE MISSING DECISIONS #############################################################################################################################
-decisions = decisions[!is.na(decisions)]
+concat = unlist(decisions)
+concat = concat[!is.na(concat)]
 
 ##################################################
 # 2. Text Pre-Processing
 ##################################################
-
-concat = c(unlist(decisions))
-length(concat)
 
 # Convert to lower case, trim tokens, remove stopwords, porter stemming, 
 # keep words with minimum number of characters equal to 3 
@@ -124,14 +116,14 @@ save_dat = textTinyR::tokenize_transform_vec_docs(object = concat, as_token = T,
                                                   min_num_char = 3, 
                                                   max_num_char = 100, 
                                                   stemmer = "porter2_stemmer", 
-                                                  path_2folder = "models/", 
+                                                  path_2folder = paste("/scratch/cs2737/models/",courts[i],'/',sep=''), 
                                                   threads = 4, 
                                                   verbose = T)
 
 # Tokenized Text Input Path / Model Output Path
 # Storing on USB drive bc space
-PATH_INPUT = "models/output_token_single_file.txt"
-PATH_OUT = "models/rt_fst_model"
+PATH_INPUT = paste("/scratch/cs2737/models/",courts[i],'/output_token_single_file.txt', sep = '')
+PATH_OUT = paste("/scratch/cs2737/models/",courts[i],'/rt_fst_model', sep = '')
 
 # Use fastTextR to build the word-vectors
 vecs = fastTextR::skipgram_cbow(input_path = PATH_INPUT, 
@@ -158,8 +150,8 @@ vecs = fastTextR::skipgram_cbow(input_path = PATH_INPUT,
 # I can use function below to keep only word-vectors that appear in decisions corpus here
 # This helps with computation time
 init = textTinyR::Doc2Vec$new(token_list = clust_vec$token, 
-                              word_vector_FILE = "models/rt_fst_model.vec",
-                              print_every_rows = 5000, # specifies print intervals (frequent outputs can slow down function)
+                              word_vector_FILE = paste("/scratch/cs2737/models/",courts[i],'/rt_fst_model.vec',sep=''),
+                              print_every_rows = 20000, # specifies print intervals (frequent outputs can slow down function)
                               verbose = TRUE, # whether to print information or not
                               copy_data = FALSE) # use of external pointer
 
@@ -170,4 +162,5 @@ doc2_sum = init$doc2vec_methods(method = "sum_sqrt", threads = 6)
 doc2_norm = init$doc2vec_methods(method = "min_max_norm", threads = 6)
 doc2_idf = init$doc2vec_methods(method = "idf", global_term_weights = gl_term_w, threads = 6)
 
-save(doc2_sum,doc2_norm,doc2_idf,file='results/vectors.RDATA')
+save(doc2_sum,doc2_norm,doc2_idf,file=paste('/scratch/cs2737/results/',courts[i],'_vectors.RDATA',sep=''))
+save(clust_vec,file=paste('/scratch/cs2737/results/',courts[i],'_cluster_vec.RDATA',sep=''))

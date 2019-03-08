@@ -33,7 +33,7 @@ Roberts and Alito (both "conservative") disagree on the meaning and effect of th
 
 ### Analysis:
 
-#### First pass:
+#### Part one:
 
 Some things to watch out for include **era-effects**, **topic-effects** and **circuit effects**.
 
@@ -45,8 +45,11 @@ Some things to watch out for include **era-effects**, **topic-effects** and **ci
 Problem:
 - "Year" and "circuit" are in the data. Can I get "topic" from somwhere or do I need to model it?
 
+#### Part two:
 
+Now that I know I can implenent vector representations of these documents, need to clean text.
 
-
+1. Identify the judge who wrote the opinion (Metadata not available for all federal appellate court cases)
+2. Identify dissent, concurrence, per curiam
 
 

@@ -35,16 +35,28 @@
 - Goal: Work on improving text-preprocessing, improve on doc2vec code, try LDA
 
 #### Accomplishments:
-1. Including bag_of_words + PCA model to analysis as well
-2. Started data inventory 
+
+1. Setting things up on HPC Cluster so I can try running doc2vec on more than 1000 opinions    
+    - I found topic labels on this site: http://artsandsciences.sc.edu/poli/juri/databases.htm but it's only a random sample AND linkage will be tricky, particularly if the case names are different, e.g. "United States vs U.S."
+    - Now that I have vector representations of each decision and I know this works, so I can build metadata: 
+    	1. Only keep main opinion (remove dissents)
+    	2. Keep name of the judge who wrote the opinion
+            - Use Regex to do this
+            - Sometimes District Judge delivers opinion in the Appellate Court. Discarding these.
+            - Discard Per Curiam opinions
+            - Sometimes Supreme Court Justice "sits by designation". Discard these.
+            - There aren't many cases where a judge dissents or dissents. Discard these for now.
+2. Started data inventory / Metadata
     - create a single .csv that contains all documents (or one .csv for each court). 
-    - The .csv should include the .json file name and the year.
-3. Use data inventory to subset list of .json files to the year. Then run doc2vec for that particular year.
-4. Setting things up on HPC Cluster so I can try running doc2vec on more than 1000 opinions
-    - Not necessary if I'm processing a Corpus from year/topic/court at a time
-    - I found topic labels on this site: http://artsandsciences.sc.edu/poli/juri/databases.htm
-    - BUT linkage will be tricky, particularly if the case names are different, e.g. "United States vs U.S."
-5. Learn about Martin-Quinn Scores (which has little to do with text analysis but I have been procrastinating on learning this properly)
+    - The .csv should include the .json file name and the year
+    - Need to get judge name    
+3. Learned about Martin-Quinn Scores (which has little to do with text analysis but I have been procrastinating on learning this properly)
+	- Code simple 1PL (Rasch) Model in Stan (just borrowed from documentation)
+	- Ran in NYU HPC (had some trouble with StanHeaders on Rstan)
+	- Supreme Court voting data is here: http://scdb.wustl.edu/data.php
+4. Sent email to Prof Elliott Ash and Prof Daniel Chen for Federal Appellate Court Metadata
+	- Chen responded: only willing to share data with co-authors (too expensive to build dataset)
+5. Sent third email to Prof Daniel Martin Katz for Federal Appellate Court Metadata
 
 #### To-Do:
 - Need to get "Topic" for cases
