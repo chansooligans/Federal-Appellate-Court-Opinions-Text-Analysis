@@ -1,0 +1,25 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/238108/",
+  "absolute_url": "/opinion/238108/rose-alexander-v-irving-trust-company-as-under-the-last-will-and/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/238108/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2011-08-23T08:31:58Z",
+  "date_modified": "2017-03-24T18:07:00.687967Z",
+  "type": "010combined",
+  "sha1": "52ea34b38764efb178ff0749d113241d6cb1ff8c",
+  "page_count": null,
+  "download_url": "http://bulk.resource.org/courts.gov/c/F2/228/228.F2d.221.167.23789_1.html",
+  "local_path": null,
+  "plain_text": "",
+  "html": "<p class=\"case_cite\">228 F.2d 221</p>\n    <p class=\"parties\">Rose ALEXANDER, Plaintiff-Appellant,<br>v.<br>IRVING TRUST COMPANY, as Executor under the Last Will and Testament of Clarence P. Oberndorf, Deceased, and Columbia University Press, Defendants-Appellees.</p>\n    <p class=\"docket\">No. 167.</p>\n    <p class=\"docket\">Docket 23789.</p>\n    <p class=\"court\">United States Court of Appeals Second Circuit.</p>\n    <p class=\"date\">Argued December 15, 1955.</p>\n    <p class=\"date\">Decided December 20, 1955.</p>\n    <p class=\"date\">Writ of Certiorari Denied March 26, 1956.</p>\n    <div class=\"prelims\">\n      <p>See 76 S.Ct. 545.</p>\n      <p class=\"indent\">Richard J. Mackey, New York City, for plaintiff-appellant.</p>\n      <p class=\"indent\">Abberley, Kooiman &amp; Amon, New York City, for defendant-appellee Irving Trust Co.</p>\n      <p class=\"indent\">Satterlee, Warfield &amp; Stephens, New York City (David Asch, New York City, of counsel), for defendant-appellee Columbia University Press.</p>\n      <p class=\"indent\">Before CLARK, Chief Judge, and MEDINA and WATERMAN, Circuit Judges.</p>\n      <p class=\"indent\">PER CURIAM.</p>\n    </div>\n    <div class=\"num\" id=\"p1\">\n      <span class=\"num\">1</span>\n      <p class=\"indent\">Judge Bicks' reasoned and complete opinion, D.C.S.D.N.Y., 132 F.Supp. 364, demonstrates that there really is no basis for the plaintiff's claim of plagiarism and unfair competition. We are content to affirm upon that opinion.</p>\n    </div>\n    <div class=\"num\" id=\"p2\">\n      <span class=\"num\">2</span>\n      <p class=\"indent\">The judgment below is affirmed, and the defendants are awarded the sum of $300 as counsel fees upon this appeal.</p>\n    </div>\n    ",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "<p class=\"case_cite\"><span class=\"citation no-link\"><span class=\"volume\">228</span> <span class=\"reporter\">F.2d</span> <span class=\"page\">221</span></span></p>\n    <p class=\"parties\">Rose ALEXANDER, Plaintiff-Appellant,<br>v.<br>IRVING TRUST COMPANY, as Executor under the Last Will and Testament of Clarence P. Oberndorf, Deceased, and Columbia University Press, Defendants-Appellees.</p>\n    <p class=\"docket\">No. 167.</p>\n    <p class=\"docket\">Docket 23789.</p>\n    <p class=\"court\">United States Court of Appeals Second Circuit.</p>\n    <p class=\"date\">Argued December 15, 1955.</p>\n    <p class=\"date\">Decided December 20, 1955.</p>\n    <p class=\"date\">Writ of Certiorari Denied March 26, 1956.</p>\n    <div class=\"prelims\">\n      <p>See <span class=\"citation no-link\"><span class=\"volume\">76</span> <span class=\"reporter\">S. Ct.</span> <span class=\"page\">545</span></span>.</p>\n      <p class=\"indent\">Richard J. Mackey, New York City, for plaintiff-appellant.</p>\n      <p class=\"indent\">Abberley, Kooiman &amp; Amon, New York City, for defendant-appellee Irving Trust Co.</p>\n      <p class=\"indent\">Satterlee, Warfield &amp; Stephens, New York City (David Asch, New York City, of counsel), for defendant-appellee Columbia University Press.</p>\n      <p class=\"indent\">Before CLARK, Chief Judge, and MEDINA and WATERMAN, Circuit Judges.</p>\n      <p class=\"indent\">PER CURIAM.</p>\n    </div>\n    <div class=\"num\" id=\"p1\">\n      <span class=\"num\">1</span>\n      <p class=\"indent\">Judge Bicks' reasoned and complete opinion, D.C.S.D.N.Y., <span class=\"citation\" data-id=\"1454869\"><a href=\"/opinion/1454869/alexander-v-irving-trust-company/\"><span class=\"volume\">132</span> <span class=\"reporter\">F. Supp.</span> <span class=\"page\">364</span></a></span>, demonstrates that there really is no basis for the plaintiff's claim of plagiarism and unfair competition. We are content to affirm upon that opinion.</p>\n    </div>\n    <div class=\"num\" id=\"p2\">\n      <span class=\"num\">2</span>\n      <p class=\"indent\">The judgment below is affirmed, and the defendants are awarded the sum of $300 as counsel fees upon this appeal.</p>\n    </div>\n    ",
+  "extracted_by_ocr": false,
+  "opinions_cited": [
+    "http://www.courtlistener.com/api/rest/v3/opinions/1454869/"
+  ]
+}

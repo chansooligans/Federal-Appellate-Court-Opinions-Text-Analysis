@@ -71,7 +71,6 @@ text(word_pca$x[,1],word_pca$x[,2], labels=final$Appointed.By, cex=0.5, col = "r
 plot(word_pca$x[,1],word_pca$x[,2], col=final$Born, pch=19, xlim=c(-20,25))
 text(word_pca$x[,1],word_pca$x[,2], labels=final$Born, cex=0.5, col = "red", pos=3)
 
-
 # 
 
 
@@ -89,3 +88,6 @@ text(word_pca$x[,1],word_pca$x[,2], labels=final$Born, cex=0.5, col = "red", pos
 
 
 
+sum(df$per_curiam>0)/nrow(df)
+sum(as.numeric(df$errata)>0)/nrow(df)
+nrow(df)
