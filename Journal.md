@@ -61,6 +61,7 @@
 3. Sent email to Prof Elliott Ash and Prof Daniel Chen for Federal Appellate Court Metadata
 	- Chen responded: only willing to share data with co-authors (too expensive to build dataset)
 4. Sent third email to Prof Daniel Martin Katz for Federal Appellate Court Metadata
+5. Create "Progress_Reports" folder. Update with R Jupyter file showing work completed. 
 
 
 #### Thoughts:
