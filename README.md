@@ -24,12 +24,11 @@ Updated: 3/10/2019
 	- average document vectors for each judge to get judge vectors
 	- PCA on judge vectors to look for clusters (for 1st circuit)
 
-To-Do:
+Notes:
 1. Part (3) above is incomplete. JSON raw data's "year" is sparse. I need to extract year from the opinions.
 2. Once Part (3) is complete, de-mean documents by court and by year. 
 3. How to de-mean by topic? I need topic labels. Ash and Chen won't share metadata with topic labels :(
-4. After de-meaning, average for each judge to get judge vectors.
-5. Plot for all appellate courts, look for blue vs red ideological separation 
+ 
 
 ***
 ### Purpose:
@@ -40,24 +39,6 @@ There are lots of models that can be used to estimate ideal points of judges (i.
 - [Duke](https://law.duke.edu/lib/facultyservices/empirical/links/courts/)
 - [The Judicial Research Initiative](http://artsandsciences.sc.edu/poli/juri/appct.htm)
 
-### Challenge:
-
-Text analysis of judge decisions may be able to identify differences in style, but differences in ideology are much too subtle. Ash and Chen show that even after de-meaning for year, topic, and circuit, there are no discernible differences between the vector representations of democratic vs republican judges. Why? One reason may be that  legal language is jargony and typically avoids coloquialisms (e.g. in Congress, members use colloquial speech in floor speeches such as "death tax", "estate tax", "fake news", "alternative facts", "pro-life", "anti-choice"), as discussed in [538 article](https://fivethirtyeight.com/features/how-conservative-is-brett-kavanaugh/). In a judge's opinion, the judge provides the fact pattern, explains the relevant laws, explains the relevant precedents, then finally proceeds to legal analysis. Judges sometimes conclude with a commentary, which can often be more colorful than dry legal analysis. So the earlier parts of an opinion have little to no signal since the judge is simply stating facts.  
-
-But it may still be possible...
-
-As an example of why I think the task of modeling judge ideology using text is possible, consider Snyder vs. Phelps (2011): 
-
-Westboro church members picketed with egregious homopphobic signs at the funeral service of Marine Lance Corporal Matthew Snyder. Roberts states that there are "special protections" for speech regarding public issues that takes place on public land:
-
-![Roberts](Notes/pics/roberts.png)
-
-Alito dissents, stating that free speech is not a license to inflict harm. Here's a passage:
-
-![Alito](Notes/pics/alito.png)
-
-Roberts and Alito (both "conservative") disagree on the meaning and effect of the first amendment. Roberts emphasizes the importance of protecting **_public_** speech while Alito sees this case as an instance of hate speech and a "malevolent verbal **attack**" causing "severe and lasting emotional **injury**". 
-
 ### Analysis:
 
 #### Part one:
@@ -67,10 +48,9 @@ Some things to watch out for include **era-effects**, **topic-effects** and **ci
 1. Start with one circuit court
 2. Learn to implement doc2vec using "fastTextR", "textTinyR"
 3. The idea is to apply this onto all federal appellate court opinions
-4. Then, de-mean by **year**, **topic**, and **circuit**
 
 Problem:
-- "Year" and "circuit" are in the data. Can I get "topic" from somwhere or do I need to model it?
+- I need to extract "year" from the opinions. Where do I get topic? Should I model this?
 
 #### Part two:
 
@@ -78,5 +58,6 @@ Now that I know I can implenent vector representations of these documents, need 
 
 1. Identify the judge who wrote the opinion (Metadata not available for all federal appellate court cases)
 2. Identify dissent, concurrence, per curiam
-
+3. Extract year from decisions
+4. Then, de-mean document vectors by **year** and **circuit** THEN average for each judge
 

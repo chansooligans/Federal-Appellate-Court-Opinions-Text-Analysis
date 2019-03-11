@@ -5,6 +5,7 @@ library(shinystan)
 library(parallel)
 library(dplyr)
 library(rstan)
+
 options(mc.cores = parallel::detectCores())
 rstan::rstan_options(auto_write = TRUE)
 nChains <- 2
@@ -25,8 +26,6 @@ df = raw_data %>%
   select(cols_to_keep) %>%
   filter(vote <= 2)
 
-df = df[1:5000,]
-
 #########################
 # Models
 #########################
@@ -42,9 +41,13 @@ data_list_0 = list(J = length(unique(df$justice)),
                    kk = df$caseId,
                    y = df$vote)
 
-stan_fit_0 = stan(file = 'stan/stan_irt.stan',
+stan_fit_0 = stan(file = 'stan/stan_irt_2PL.stan',
                   data = data_list_0,
                   chains = nChains,
-                  iter = 2000)  
+                  iter = 2000)
+
+
+save(stan_fit_0,file='stan_fit_using_voting.RDATA')
 
 print(stan_fit_0, pars = c('alpha','beta','delta'))
+

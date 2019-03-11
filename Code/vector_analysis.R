@@ -48,7 +48,7 @@ judge_vecs = judge_vecs %>% left_join(counts, by = 'V301') %>% filter(n>10) %>% 
 row.names(judge_vecs) = judge_vecs$V301
 
 # Join Judge Metadata
-write.csv(judge_vecs,file='/Volumes/RESEARCH/EDSP/ca1_judges.csv')
+# write.csv(judge_vecs,file='/Volumes/RESEARCH/EDSP/ca1_judges.csv')
 judge_meta = read.csv(file=paste('/Volumes/RESEARCH/EDSP/metadata/',court,'_Judge_Metadata.csv',sep=''))
 final = judge_vecs %>% left_join(judge_meta,by=c('V301'='Judge'))
 
@@ -68,9 +68,14 @@ par(bg = 'white')
 plot(word_pca$x[,1],word_pca$x[,2], col=final$Appointed.By, pch=19, xlim=c(-20,25))
 text(word_pca$x[,1],word_pca$x[,2], labels=final$Appointed.By, cex=0.5, col = "red", pos=3)
 
+
+
+
+
 plot(word_pca$x[,1],word_pca$x[,2], col=final$Born, pch=19, xlim=c(-20,25))
 text(word_pca$x[,1],word_pca$x[,2], labels=final$Born, cex=0.5, col = "red", pos=3)
 
+dim(word_pca$x)
 # 
 
 
