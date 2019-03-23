@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/180393/",
+  "absolute_url": "/opinion/180393/united-states-v-overseas-shipholding-group-inc/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/180393/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-12-03T19:46:29Z",
+  "date_modified": "2017-03-24T09:38:20.052161Z",
+  "type": "010combined",
+  "sha1": "07ca7152833a6e0d8a4366ed14945d902a12ffab",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-2684E-01A.pdf",
+  "local_path": "pdf/2010/12/03/US_v._Hawthorn.pdf",
+  "plain_text": "              United States Court of Appeals\n                               For the First Circuit\n\nNo.   09-2684\n\n                             UNITED STATES OF AMERICA,\n\n                                           Appellee,\n\n                                               v.\n\n                        OVERSEAS SHIPHOLDING GROUP, INC.,\n\n                                          Defendant,\n\n                                    ZACK HAWTHORN,\n\n                                      Movant, Appellant.\n\n\n                                      ERRATA SHEET\n\n\n      The opinion of this Court issued on October 18, 2010, is amended as follows:\n\n      On page 9, line 8, substitute \"statue\" with \"statute\"\n\n      On page12, line 5, substitute \"7,3(b)\" with \"7.3(b)\"\n\n      On page 22, line 20, substitute \"Hawthorne's clients\" with \"Hawthorn's clients\"\n\n      On page 23, line 3, substitute \"wistleblowers\" with \"whistleblowers\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

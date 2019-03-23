@@ -19,8 +19,8 @@ parameters {
 	vector[J] alpha;				// conservativeness for judge j - mean
 	vector[K] beta;					// conservativeness of case k
 	vector<lower=0>[K] gamma;		// discrimination of k
-	real<lower=0> sigma_beta		// scale of conservativeness
-	real<lower=0> sigma_gamma		// scale of log conservativeness
+	real<lower=0> sigma_beta;		// scale of conservativeness
+	real<lower=0> sigma_gamma;		// scale of log conservativeness
 }
 
 model {
@@ -33,12 +33,13 @@ model {
 	sigma_beta ~ cauchy(0, 5);
 	sigma_gamma ~ cauchy(0, 5); 			
 	
-	y[ ~ bernoulli_logit(gamma[kk] .* (alpha[jj] - (beta[kk] + mu_beta)));
+	y ~ bernoulli_logit(gamma[kk] .* (alpha[jj] - (beta[kk] + mu_beta)));
 	// .* is elementwise product
 
 	for (n in 1:N) {
-  		y[n] ~ bernoulli_logit(gamma[kk[n]] * (alpha[jj[n]] - (beta[kk[n]] + mu_beta));
+  		y[n] ~ bernoulli_logit(gamma[kk[n]] * (alpha[jj[n]] - (beta[kk[n]] + mu_beta)));
 	}
 }
 
 // The "alpha" determines the scale and location, while beta and gamma are allowed to float
+

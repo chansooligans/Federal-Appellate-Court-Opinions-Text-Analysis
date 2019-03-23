@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/152282/",
+  "absolute_url": "/opinion/152282/united-states-v-matos/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/152282/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-08-04T19:25:15Z",
+  "date_modified": "2017-03-24T07:25:15.678348Z",
+  "type": "010combined",
+  "sha1": "31590810aab89b54fd35efc3647125895e31d5fe",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1178E-01A.pdf",
+  "local_path": "pdf/2010/08/04/US_v._Matos.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\nNo. 09-1178\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                         ANTHONY MATOS,\n\n                      Defendant, Appellant.\n\n\n                          Errata Sheet\n\n\n     The opinion of this Court issued on July 7, 2010, is amended\nas follows:\n\n     On page 24, line 14, should be corrected to read:   \"the sale\nof 22 Burr Street\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

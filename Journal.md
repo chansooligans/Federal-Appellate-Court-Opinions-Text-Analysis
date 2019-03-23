@@ -77,4 +77,9 @@ Some resources:
 - https://cran.r-project.org/web/packages/idealstan/vignettes/Package_Introduction.html
 
 
+## Week 7: 3/11/2019
 
+Accomplishments:
+1. Extract year from opinions
+2. Add step of de-meaning document vectors for Feder Circuit Court 1 by Year
+3. Include Circuit Court 2 into Analysis

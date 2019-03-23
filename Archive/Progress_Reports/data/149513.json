@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/149513/",
+  "absolute_url": "/opinion/149513/larios-v-holder/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/149513/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-06-25T16:28:34Z",
+  "date_modified": "2017-03-24T07:07:48.937559Z",
+  "type": "010combined",
+  "sha1": "77c97b079f258d166c9319e9c29d211e9ba3183f",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1869E-01A.pdf",
+  "local_path": "pdf/2010/06/25/Larios_v._Holder_Jr..pdf",
+  "plain_text": "          United States Court of Appeals\n                      For the First Circuit\n\n\nNo. 09-1869\n\n                      MAYNOR ALONSO LARIOS,\n\n                             Petitioner,\n\n                                    v.\n\n                       ERIC H. HOLDER, JR.,\n               Attorney General of the United States\n\n                             Respondent.\n\n\n                             ERRATA SHEET\n\n     The opinion of this Court issued on June 21, 2010, is amended\nas follows:\n\n     On   page   2,   line    17,        change   \"212(a)(6)(A)(I)\"    to\n\"212(a)(6)(A)(i)\".\n\n     On   page  2,    line    18,    change       \"1182(a)(6)(A)(I)\"   to\n\"1182(a)(6)(A)(i)\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

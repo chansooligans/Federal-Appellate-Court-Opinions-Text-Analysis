@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/173476/",
+  "absolute_url": "/opinion/173476/united-states-v-de-la-paz-rentas/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/173476/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-08-17T16:16:53Z",
+  "date_modified": "2017-03-24T09:03:07.933224Z",
+  "type": "010combined",
+  "sha1": "0b68e5b5c70f0677b61a8d288e490cb4e7ab9d67",
+  "page_count": 2,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-1820E2-01A.pdf",
+  "local_path": "pdf/2010/08/17/US_v._Torres-Gonzalez.pdf",
+  "plain_text": "              United States Court of Appeals\n                        For the First Circuit\n\nNo. 08-1820\n\n                      UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                  v.\n\n                NATANAEL DE LA PAZ-RENTAS, a/k/a NATO,\n\n                        Defendant, Appellant.\n                         ____________________\n\nNo. 08-1821\n\n                      UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                  v.\n\n                        VICTOR SANJURJO-NUNEZ,\n\n                        Defendant, Appellant.\n                         ___________________\n\nNo. 09-1397\n\n                      UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                  v.\n\n                        PEDRO MOLINA-BONILLA,\n\n                        Defendant, Appellant.\n                         ____________________\n\fNo. 09-1639\n\n                        UNITED STATES OF AMERICA,\n\n                                    Appellee,\n\n                                       v.\n\n                 WALDEMAR TORRES-GONZALEZ, a/k/a WALDY,\n\n                            Defendant, Appellant.\n                             ____________________\n\n                                     ERRATA\n\n     The opinion of this Court, issued on July 20, 2010, should be\n\namended as follows.\n\n     On page 5, lines 3, 11, 21 and 31, replace \"18 U.S.C. §§ 2,\n\n922(a)(1)(A)     &   (D)\"    with    \"18    U.S.C.   §§   2,   922(a)(1)(A),\n\n924(a)(1)(D)\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

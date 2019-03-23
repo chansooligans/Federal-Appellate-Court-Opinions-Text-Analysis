@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/151655/",
+  "absolute_url": "/opinion/151655/rectrix-aerodrome-centers-inc-v-barnstable-municip/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/151655/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-07-27T17:48:06Z",
+  "date_modified": "2017-03-24T07:20:11.812276Z",
+  "type": "010combined",
+  "sha1": "87223862447e2b0bee68e78c1d3a6a53454fe960",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-2173E-01A.pdf",
+  "local_path": "pdf/2010/07/27/Rectrix_Aerodrome_Centers_Inc_v._Barnstable_Municipal_Airport_C.pdf",
+  "plain_text": "              United States Court of Appeals\n                       For the First Circuit\n\nNo. 09-2173\n\n                  RECTRIX AERODROME CENTERS, INC.,\n\n                       Plaintiff, Appellant,\n\n                                 v.\n\n   BARNSTABLE MUNICIPAL AIRPORT COMMISSION, MICHAEL A. DUNNING,\n      BRUCE P. GILMORE, FRANCISCO SANCHEZ and QUINCY MOSBY,\n\n                       Defendants, Appellees.\n\n\n                               ERRATA\n\n     The opinion of this Court, issued on June 23, 2010, should be\n\namended as follows.\n\n     On page 15, line 1, \"Griffith\" should be \"Griffin\".\n\n     On page 17, line 6 of 3rd paragraph, \"so far is\" should be \"so\n\nfar as\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

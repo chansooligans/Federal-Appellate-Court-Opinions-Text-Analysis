@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/183907/",
+  "absolute_url": "/opinion/183907/tayag-v-lahey-clinic-hosp-inc/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/183907/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2011-02-01T01:00:08Z",
+  "date_modified": "2017-03-24T09:54:09.157052Z",
+  "type": "010combined",
+  "sha1": "9fa97b980191eb4e8ffb2040845c2ca7636b3817",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/10-1169E-01A.pdf",
+  "local_path": "pdf/2011/01/31/Tayag_v._Lahey_Clinic_Hospital_Inc..pdf",
+  "plain_text": "              United States Court of Appeals\n                         For the First Circuit\n\nNo. 10-1169\n\n                           MARIA LUCIA TAYAG,\n\n                         Plaintiff, Appellant,\n\n                                   v.\n\n                      LAHEY CLINIC HOSPITAL, INC.,\n\n                          Defendant, Appellee.\n\n\n                                 ERRATA\n\n     The opinion of this Court, issued on January 27, 2011, should be\n\namended as follows.\n\n     On page 2, line 6 of 1st paragraph, replace \"one\" with \"two\".\n\n     On page 4, line 2 of 2nd full paragraph, replace \"one being\"\n\nwith \"including\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

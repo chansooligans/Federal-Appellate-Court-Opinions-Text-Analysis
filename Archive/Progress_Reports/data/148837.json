@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/148837/",
+  "absolute_url": "/opinion/148837/gonzalez-fuentes-v-molina/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/148837/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-06-17T19:57:54Z",
+  "date_modified": "2017-03-24T07:02:37.786646Z",
+  "type": "010combined",
+  "sha1": "90aa491d1ebd2456100e841cc7b699f46c11ffa3",
+  "page_count": 2,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-1818E-01A.pdf",
+  "local_path": "pdf/2010/06/17/Carmen_Rivera-Feliciano_v._Anibal_Acevedo-Vila.pdf",
+  "plain_text": "               United States Court of Appeals\n                                For the First Circuit\nNo. 08-1818\n\n                            EFRAÍN GONZÁLEZ-FUENTES, et al.,\n\n                                      Petitioners, Appellees,\n\n\n                                                v.\n\n                    HON. CARLOS MOLINA, Secretary of Corrections and\n                     Rehabilitation of of Puerto Rico and Administrator of\n                      Corrections of the Commonwealth of Puerto Rico,\n\n                                     Respondent, Appellant.\n\nNo. 08-1819\n\n                            CARMEN RIVERA-FELICIANO, et al.\n\n                                      Plaintiffs, Appellees,\n                                                 v.\n\n                 HON. LUIS FORTUNO BURSET, Governor of Puerto Rico;\n               HON. ROBERTO SANCHEZ-RAMOS, Secretary of Justice of the\n              Commonwealth of Puerto Rico; HON. CARLOS MOLINA, Secretary\n                     of Corrections and Rehabilitation of Puerto Rico and\n               Administrator of Corrections of the Commonwealth of Puerto Rico;\n                 HON. JOSE R. LOZADA, Director of the Bureau of Special\n                     Investigations of the Commonwealth of Puerto Rico,\n\n                                     Defendants, Appellants.\n\n\n                                       ERRATA SHEET\n\n       The opinion of this Court issued on June 10, 2010, is amended as follows:\n\n         On the coversheet replace Susana I. Peñagarícano-Brown, Puerto Rico Department of Justice,\nwith whom Roberto J. Sanchez Ramos, Secretary of Justice and Ileana M. Oliver-Falero, Acting\nSolicitor General, were on brief, for appellants. with Susana I. Peñagarícano-Brown, Puerto Rico\nDepartment of Justice, with whom Roberto J. Sanchez Ramos, Secretary of Justice , Ileana M.\nOliver-Falero, Acting Solicitor General, and Carlos A. Del Valle Cruz, Special Counsel, were on\nbrief, for appellants.\n\fOn page 13, note 8, line 12 replace \"were it to conclude\" with \"were to conclude\"\n\nOn page 44, line 1, replace \"incidences\" with \"incidents\"\n\nOn page 46, line 18, replace \"incidences\" with \"incidents\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

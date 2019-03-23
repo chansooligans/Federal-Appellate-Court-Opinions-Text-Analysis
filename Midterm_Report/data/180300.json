@@ -1,0 +1,26 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/180300/",
+  "absolute_url": "/opinion/180300/kelmer-da-silva-neves-v-eric-holder-jr/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/180300/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-12-02T21:17:29Z",
+  "date_modified": "2017-03-24T09:37:53.964959Z",
+  "type": "010combined",
+  "sha1": "c56a877c1c266fc40683683e7d701068e46b7758",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/07-1091E2-01A.pdf",
+  "local_path": "pdf/2010/12/02/Kelmer_Da_Silva_Neves_v._Eric_Holder_Jr..pdf",
+  "plain_text": "          United States Court of Appeals\n                      For the First Circuit\n\n\nNo. 07-1091\n\n                      KELMER DA SILVA NEVES,\n\n                           Petitioner,\n\n                                v.\n\n              ERIC H. HOLDER, JR., ATTORNEY GENERAL,\n\n                           Respondent.\n\n\n                           ERRATA SHEET\n\n     The opinion of this Court issued on July 21, 2010, is amended\nas follows:\n\n     On page 9, line 12, the following footnote 4 is added at the\nend of the sentence:\n\n     The Supreme Court in Kucana stated that it \"express[es]\n     no opinion on whether federal courts may review the\n     Board's decision not to reopen removal proceedings sua\n     sponte.\"   Kucana v. Holder, 130 S. Ct. 827, 839 n.18\n     (2010). Because the Supreme Court declined to reach the\n     issue, Luis is still controlling law. Further, we note\n     that three circuits have concluded explicitly that Kucana\n     does not change the prior rule on this point. Gashi v.\n     Holder, No. 09-4200, 2010 WL 2563403, at *1 (2d Cir. June\n     22, 2010); Ochoa v. Holder, 604 F.3d 546, 549 & n.3 (8th\n     Cir. 2010); Jaimes-Aguirre v. U.S. Atty. Gen., 369 Fed.\n     Appx. 101, 103 (11th Cir. 2010).\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "<pre class=\"inline\">          United States Court of Appeals\n                      For the First Circuit\n\n\nNo. 07-1091\n\n                      KELMER DA SILVA NEVES,\n\n                           Petitioner,\n\n                                v.\n\n              ERIC H. HOLDER, JR., ATTORNEY GENERAL,\n\n                           Respondent.\n\n\n                           ERRATA SHEET\n\n     The opinion of this Court issued on July 21, 2010, is amended\nas follows:\n\n     On page 9, line 12, the following footnote 4 is added at the\nend of the sentence:\n\n     The Supreme Court in Kucana stated that it \"express[es]\n     no opinion on whether federal courts may review the\n     Board's decision not to reopen removal proceedings sua\n     sponte.\"   Kucana v. Holder, </pre><span class=\"citation\" data-id=\"1744\"><a href=\"/opinion/1744/kucana-v-holder/\"><span class=\"volume\">130</span> <span class=\"reporter\">S. Ct.</span> <span class=\"page\">827</span></a></span><pre class=\"inline\">, 839 n.18\n     (2010). Because the Supreme Court declined to reach the\n     issue, Luis is still controlling law. Further, we note\n     that three circuits have concluded explicitly that Kucana\n     does not change the prior rule on this point. Gashi v.\n     Holder, No. 09-4200, </pre><span class=\"citation no-link\"><span class=\"volume\">2010</span> <span class=\"reporter\">WL</span> <span class=\"page\">2563403</span></span><pre class=\"inline\">, at *1 (2d Cir. June\n     22, 2010); Ochoa v. Holder, </pre><span class=\"citation\" data-id=\"145567\"><a href=\"/opinion/145567/ochoa-v-holder/\"><span class=\"volume\">604</span> <span class=\"reporter\">F.3d</span> <span class=\"page\">546</span></a></span><pre class=\"inline\">, 549 & n.3 (8th\n     Cir. 2010); Jaimes-Aguirre v. U.S. Atty. Gen., 369 Fed.\n     Appx. 101, 103 (11th Cir. 2010).\n\f</pre>",
+  "extracted_by_ocr": false,
+  "opinions_cited": [
+    "http://www.courtlistener.com/api/rest/v3/opinions/1744/",
+    "http://www.courtlistener.com/api/rest/v3/opinions/145567/"
+  ]
+}

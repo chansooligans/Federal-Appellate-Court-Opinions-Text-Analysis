@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/181602/",
+  "absolute_url": "/opinion/181602/charalambous-v-charalambous/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/181602/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-12-22T20:45:24Z",
+  "date_modified": "2017-03-24T09:43:47.585809Z",
+  "type": "010combined",
+  "sha1": "e92463fb9591e71ef8afb8ca1f766bb6fa190b8c",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/10-2227E-01A.pdf",
+  "local_path": "pdf/2010/12/22/Charalambous_v._Charalambous.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 10-2227\n\n                 ELIZABETH ROHNERT CHARALAMBOUS,\n\n                     Respondent, Appellant,\n\n                               v.\n\n                      SAVVAS CHARALAMBOUS,\n\n                      Petitioner, Appellee.\n\n\n                          ERRATA SHEET\n\n     The opinion of this court issued on December 8, 2010 is\namended as follows:\n\n     On page 14, line 3, \"Charalambous, 2010 WL 4115495, at *11.\"\nis inserted after \"returned.\"\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "<pre class=\"inline\">          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 10-2227\n\n                 ELIZABETH ROHNERT CHARALAMBOUS,\n\n                     Respondent, Appellant,\n\n                               v.\n\n                      SAVVAS CHARALAMBOUS,\n\n                      Petitioner, Appellee.\n\n\n                          ERRATA SHEET\n\n     The opinion of this court issued on December 8, 2010 is\namended as follows:\n\n     On page 14, line 3, \"Charalambous, </pre><span class=\"citation no-link\"><span class=\"volume\">2010</span> <span class=\"reporter\">WL</span> <span class=\"page\">4115495</span></span><pre class=\"inline\">, at *11.\"\nis inserted after \"returned.\"\"\n\f</pre>",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/148238/",
+  "absolute_url": "/opinion/148238/united-states-v-torres-rodriguez/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/148238/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-06-09T19:43:04Z",
+  "date_modified": "2017-03-24T06:58:01.446436Z",
+  "type": "010combined",
+  "sha1": "f6be50dbc3215603aa02337622499820666c8808",
+  "page_count": 2,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-1900E-01A.pdf",
+  "local_path": "pdf/2010/06/09/US_v._Torres-Rodriguez.pdf",
+  "plain_text": "          United States Court of Appeals\n                        For the First Circuit\n\n\nNo. 08-1900\n\n                    UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                 v.\n\n                         LUIS ROSADO-PÉREZ,\n\n                        Defendant, Appellant.\n\n\nNos. 08-2164, 08-2166\n\n                    UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                 v.\n\n                        MARCOS RIVERA-PEREZ,\n\n                        Defendant, Appellant.\n\n\n\n\nNo. 08-2181\n\n                    UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                 v.\n\n                    EMANUEL RIVERA MALDONADO,\n\n                        Defendant, Appellant.\n\fNo. 08-2183\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                  JUAN CARLOS TORRES-RODRIGUEZ,\n\n                      Defendant, Appellant.\n\n\n                          ERRATA SHEET\n\n     The opinion of this Court issued on May 14, 2010, is amended\nas follows:\n\n     On page 9, line 13, \"2008\" is changed to \"2006\".\n\n     On page 10, line 18, \"2008\" is changed to \"2006\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

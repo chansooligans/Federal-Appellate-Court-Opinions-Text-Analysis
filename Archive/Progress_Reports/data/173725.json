@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/173725/",
+  "absolute_url": "/opinion/173725/united-states-v-figueroa-cartagena/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/173725/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-08-19T19:50:22Z",
+  "date_modified": "2017-03-24T09:05:31.451670Z",
+  "type": "010combined",
+  "sha1": "1c72e75d16f31413f49e52422ebb1313153d1933",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-2108E-01A.pdf",
+  "local_path": "pdf/2010/08/19/US_v._Figueroa-Cartagena.pdf",
+  "plain_text": "          United States Court of Appeals\n                      For the First Circuit\n\nNo. 08-2108\n\n                     UNITED STATES OF AMERICA,\n                             Appellee,\n\n                                v.\n\n     FÉLIX ALBERTO CASTRO-DAVIS, a/k/a Belto, a/k/a Bertito,\n                      Defendant, Appellant.\n\n\nNo. 08-2109\n\n                     UNITED STATES OF AMERICA,\n                             Appellee,\n\n                                v.\n\n              FÉLIX GABRIEL CASTRO-DAVIS, a/k/a Gaby,\n                       Defendant, Appellant.\n\n\n\n                           ERRATA SHEET\n\n\n     The opinion of this Court issued on July 16, 2010, is amended\nas follows:\n\n     On page 11, lines 13-14: delete \"a violation of Fed. R. Crim.\nP. 24(c)(4)(a),\"\n\n     On page 14, line 4 of footnote 9: insert an \"a\" between \"has\nbeen\" and \"lack\"\n\n     On page 19, line 6: substitute the comma after \"area\" with a\nsemi-colon\n\n     On page 27, line 3: insert a closing parenthesis after \"(1st\nCir. 2003).\"\n\n     On page 33, lines 3-4 of footnote 6: should read          \"On\nOctober 28, 2009, just before oral argument, Gabriel ...\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

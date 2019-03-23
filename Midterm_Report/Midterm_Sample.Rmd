@@ -1,0 +1,537 @@
+---
+title: "Midterm (Using Small Sample of Data)" 
+output: html_document
+---
+
+!!! ADDITIONAL DATA STORED ON GOOGLE DRIVE
+(1) Go to: https://drive.google.com/open?id=1cCiKS4RzFGdHakkyvr2-KwVaKkikTbH0
+(2) Download Contents and put files into: "edsp2019project-chansooligans/Midterm_Report/data2/"
+
+Should contain: 
+- ca1_vectors.RDATA
+- ca2_vectors.RDATA
+- ca3_vectors.RDATA
+- ca4_vectors.RDATA
+- data_inventory.ca1.RDATA
+- data_inventory.ca2.RDATA
+- data_inventory.ca3.RDATA
+- data_inventory.ca4.RDATA
+- Judge_Metadata - Export.csv
+
+###################################################################################################################
+                                            # Dependencies #
+###################################################################################################################
+
+```{r setup}
+rm(list=ls())
+MAC.USER = TRUE
+# This package will not install on Mac unless you make some tweaks that take significant time
+# But it's not necessary for the purposes of this demonstration.
+# If using PC, feel free to install and use.
+if(!MAC.USER){require(fastTextR)}
+require(rjson)
+require(stringr)
+require(textTinyR)
+require(ClusterR)
+require(dplyr)
+require(ggplot2)
+require(irlba) # fast and memory efficient methods for truncated singular value decomp + PCA of large sparse matrices
+```
+
+
+
+
+###################################################################################################################
+                                        # Data Inventory (Metadata) #
+###################################################################################################################
+
+```{r inventory}
+# File Paths
+#########################
+decisions_path = 'data/'
+decisions_files = list.files(decisions_path)
+n = length(decisions_files) 
+```
+
+```{r}
+# Load Data
+#########################
+# Initialize Vectors
+local_path = absolute_url = type = author = joined_by = download_url = rep(NA,n)
+plain_text = judge = year = dissent = concurring = per_curiam = errata = rep(NA,n)
+circuit = rep('ca1',n)
+```
+
+```{r}
+# If NULL Else Helper Function
+is.null.setNA = function(x){
+  if(is.null(x)){
+    return(NA)
+  } else if(length(x)==0){
+    return(NA)
+  } else if(trimws(x)==''){
+    return(NA)
+  } else return(x)
+}
+```
+
+```{r}
+# For each file, save metadata
+for(i in 1:n){
+  
+  result = fromJSON(file=paste(decisions_path, decisions_files[i],sep=''))
+  
+  # Save Local Path, URL, Type, Author, Joined_by from JSON file. Set as NA if null. 
+  local_path[i] = is.null.setNA(result$local_path)
+  absolute_url[i] = is.null.setNA(result$absolute_url)
+  type[i] = is.null.setNA(result$type)
+  author[i] = is.null.setNA(result$author)
+  joined_by[i] = is.null.setNA(result$joined_by)
+  download_url[i] = is.null.setNA(result$download_url)
+  
+  # The Opinion is stored in either plain_text or html_with_citations. Use html_with_citations if plain_text is unavailable
+  if(result$plain_text!=""){
+    plain_text[i] = 'plain'
+  } else if(result$html_with_citations!="") {
+    plain_text[i] = 'html_with_citations'
+    result$plain_text = result$html_with_citations
+  } else {
+    plain_text[i] = NA
+  }
+  
+  # Regex Rules to Identify the (1) Author of the Text and (2) Whether Opinion contains a Dissent, Concurrence, Per Curiam, Errata, or NA
+  if(is.character(plain_text[i])){
+    # \n\f format
+    judge[i] = str_match(result$plain_text, "\n\f (.*?) Chief[ \t]+Judge[.]")[,2]
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "\n\f (.*?) Circuit[ \t]+Judge[.]")[,2]
+    
+    # Negative Lookahead "and"
+    # <p> format
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p>(?!.*and)(.*?) Chief[ \t]+Judge[.]")[,2]
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p>(?!.*and)(.*?) Circuit[ \t]+Judge[.]")[,2]
+    # gt format
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "gt;(?!.*and)(.*?) Chief[ \t]+Judge[.]")[,2]
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "gt;(?!.*and)(.*?) Circuit[ \t]+Judge[.]")[,2]
+    # <p><span> format
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p><span>([ \t]*)([a-zA-Z,]*)[ \t]Chief[ \t]+Judge[.]")[,3]
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p><span>([ \t]*)([a-zA-Z,]*)[ \t]Circuit[ \t]+Judge[.]")[,3]
+    # <p class=\"indent\">
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p class=\"indent\">(?!.*and)(.*?) Chief[ \t]+Judge[.]")[,2]
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p class=\"indent\">(?!.*and)(.*?) Circuit[ \t]+Judge[.]")[,2]
+    
+    # Chunk of characters between tag and Judge
+    # <p> format
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p>([ \t]*)([a-zA-Z,]*?) Chief[ \t]+Judge[.]")[,2]
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p>([ \t]*)([a-zA-Z,]*?) Circuit[ \t]+Judge[.]")[,2]
+    # gt format
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "gt;([ \t]*)([a-zA-Z,]*?) Chief[ \t]+Judge[.]")[,2]
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "gt;([ \t]*)([a-zA-Z,]*?) Circuit[ \t]+Judge[.]")[,2]
+    # <p><span> format
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p><span>([ \t]*)([a-zA-Z,]*)[ \t]Chief[ \t]+Judge[.]")[,3]
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p><span>([ \t]*)([a-zA-Z,]*)[ \t]Circuit[ \t]+Judge[.]")[,3]
+    # <p class=\"indent\">
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p class=\"indent\">([ \t]*)([a-zA-Z,]*)[ \t]Chief[ \t]+Judge[.]")[,2]
+    if(is.na(judge[i])) judge[i] = str_match(result$plain_text, "<p class=\"indent\">([ \t]*)([a-zA-Z,]*)[ \t]Circuit[ \t]+Judge[.]")[,2]
+    
+    # Get Year
+    regex_date = '(Jan(uary)?|Feb(ruary)?|Mar(ch)?|Apr(il)?|May|Jun(e)?|Jul(y)?|Aug(ust)?|Sep(tember)?|Oct(ober)?|Nov(ember)?|Dec(ember)?)\\s+\\d{1,2},\\s+\\d{4}'
+    date = str_match(result$plain_text, regex_date)[1]
+    date_n = nchar(date)
+    year[i] = substr(date, date_n-3,date_n)
+    
+    if(is.na(judge[i])) judge[i] = nchar(result$plain_text)
+    dissent[i] = str_count(result$plain_text,'Dissenting')    
+    concurring[i] = str_count(result$plain_text,'.oncurring')    
+    per_curiam[i] = str_count(result$plain_text,'Per Curiam')    
+    errata[i] = str_count(result$plain_text,'ERRATA SHEET')    
+  }
+  
+  if(i %% 100 == 0) print(i)
+}
+```
+
+```{r}
+# Extract Year and Case Names from the Local Path and Absolute URLs
+# Since Case Name formatting vary, I have two casenames
+case_name = sapply(local_path, function(x) strsplit(x,'/')[[1]][5])
+case_name = gsub('.pdf','',case_name)
+case_name2 = sapply(absolute_url, function(x) strsplit(x,'/')[[1]][4])
+
+# Put together metadata data frame
+df = setNames(as.data.frame(cbind(decisions_files,year,case_name,case_name2,circuit,local_path,absolute_url,
+                                  type,author,joined_by,download_url,plain_text,judge,
+                                  dissent,concurring,per_curiam,errata),
+                            stringsAsFactors = F),
+             c('file_name','year','case_name','alt_case_name','circuit','local_path','absolute_url',
+               'type','author','joined_by','download_url','plain_text','judge',
+               'dissent','concurring','per_curiam','errata'))
+row.names(df) = 1:nrow(df)
+df$judge = trimws(df$judge)
+```
+
+
+
+
+
+
+###################################################################################################################
+                                              # Document Embeddings #
+###################################################################################################################
+
+```{r}
+# Text Cleaning Functions
+#########################
+htmlBreaks <- function(htmlString) {
+  htmlString = gsub("<br>", " ", htmlString)
+  return(gsub("\n", " ", htmlString))
+}
+
+htmlRemove <- function(htmlString) {
+  return(gsub("<.*?>", "", htmlString))
+}
+
+n_cases = length(decisions_files)
+```
+
+```{r}
+# Load Data
+#########################
+decisions = list()
+
+decisions = rep(NA,n_cases)
+for(j in 1:n_cases){
+  result = fromJSON(file=paste(decisions_path, decisions_files[j],sep=''))
+  if(result$html_with_citations != ''){
+    decisions[j] = result$html_with_citations  
+  } else if(result$plain_text != ''){
+    decisions[j] = result$plain_text  
+  }
+  decisions[j] = htmlRemove(decisions[j])
+  decisions[j] = htmlBreaks(decisions[j])
+  if(j %% 200==0) print(paste('loading opinion',j))
+}
+
+# Concatenate list of decisions into one vector
+concat = unlist(decisions)
+concat = concat[!is.na(concat)]
+```
+
+```{r}
+# Text Pre-Processing
+#########################
+
+# Convert to lower case, trim tokens, remove stopwords, porter stemming, 
+# keep words with minimum number of characters equal to 3 
+# For each document, tokenize terms
+clust_vec = textTinyR::tokenize_transform_vec_docs(object = concat, as_token = T,
+                                                   to_lower = T, 
+                                                   remove_punctuation_vector = F,
+                                                   remove_numbers = F, 
+                                                   trim_token = T,
+                                                   split_string = T,
+                                                   split_separator = " \r\n\t.,;:()?!//", 
+                                                   remove_stopwords = T,
+                                                   language = "english", 
+                                                   min_num_char = 3, 
+                                                   max_num_char = 100,
+                                                   stemmer = "porter2_stemmer", 
+                                                   threads = 4,
+                                                   verbose = T)
+
+# All unique terms from all documents
+unq = unique(unlist(clust_vec$token, recursive = F))
+
+# Term matrix to get the global-term-weights (idf global term weights)
+utl = textTinyR::sparse_term_matrix$new(vector_data = concat, file_data = NULL,
+                                        document_term_matrix = TRUE)
+tm = utl$Term_Matrix(sort_terms = FALSE, to_lower = T, remove_punctuation_vector = F,
+                     remove_numbers = F, trim_token = T, split_string = T, 
+                     stemmer = "porter2_stemmer",
+                     split_separator = " \r\n\t.,;:()?!//", remove_stopwords = T,
+                     language = "english", min_num_char = 3, max_num_char = 100,
+                     print_every_rows = 100000, normalize = NULL, tf_idf = F, 
+                     threads = 6, verbose = T)
+gl_term_w = utl$global_term_weights()
+
+# For each document, tokenize terms (same as "clust_vec" above) BUT
+# using "path_2folder" parameter saves output in a .txt file, which is memory efficient
+save_dat = textTinyR::tokenize_transform_vec_docs(object = concat, as_token = T, 
+                                                  to_lower = T, 
+                                                  remove_punctuation_vector = F,
+                                                  remove_numbers = F, 
+                                                  trim_token = T, 
+                                                  split_string = T, 
+                                                  split_separator = " \r\n\t.,;:()?!//",
+                                                  remove_stopwords = T, 
+                                                  language = "english", 
+                                                  min_num_char = 3, 
+                                                  max_num_char = 100, 
+                                                  stemmer = "porter2_stemmer", 
+                                                  path_2folder = 'models/', 
+                                                  threads = 4, 
+                                                  verbose = T)
+```
+
+```{r}
+# Tokenized Text Input Path / Model Output Path
+# Storing on USB drive bc space
+PATH_INPUT = 'models/output_token_single_file.txt'
+PATH_OUT = 'models/rt_fst_model'
+
+# Build Word Vectors (Word Embeddings)
+#########################
+
+# Skip the fastTextR::skipgram_cbow function if you are a Mac user and do not have fastTextR loaded
+# This function saves a file but that file is already in the Midterm_Sample/models folder 
+# so you do not have to run this function
+if(!MAC.USER){
+  # Takes 5-6 minutes for this sample
+  vecs = fastTextR::skipgram_cbow(input_path = PATH_INPUT, 
+                                  output_path = PATH_OUT, 
+                                  method = "skipgram", 
+                                  lr = 0.075, 
+                                  lrUpdateRate = 100, 
+                                  dim = 300, 
+                                  ws = 5, 
+                                  epoch = 5, 
+                                  minCount = 1, 
+                                  neg = 5, 
+                                  wordNgrams = 2, 
+                                  loss = "ns", 
+                                  bucket = 2e+06,
+                                  minn = 0, 
+                                  maxn = 0, 
+                                  thread = 6, 
+                                  t = 1e-04, 
+                                  verbose = 2)
+} 
+
+```
+
+```{r}
+# The word vectors are based on the decisions themselves
+# However, if I used word vectors based on external data, such as Wikipedia data, then 
+# I can use function below to keep only word-vectors that appear in decisions corpus here
+# This helps with computation time
+init = textTinyR::Doc2Vec$new(token_list = clust_vec$token, 
+                              word_vector_FILE = 'models/rt_fst_model.vec',
+                              print_every_rows = 20000, # specifies print intervals (frequent outputs can slow down function)
+                              verbose = TRUE, # whether to print information or not
+                              copy_data = FALSE) # use of external pointer
+
+
+# Use Word Vectors to Compute Document Vectors
+# Three different methods: sum_sqrt, min_max_norm, idf
+# see documentation for details: https://cran.r-project.org/web/packages/textTinyR/textTinyR.pdf
+doc2_sum = init$doc2vec_methods(method = "sum_sqrt", threads = 6)
+doc2_norm = init$doc2vec_methods(method = "min_max_norm", threads = 6)
+doc2_idf = init$doc2vec_methods(method = "idf", global_term_weights = gl_term_w, threads = 6)
+```
+
+
+
+
+
+
+###################################################################################################################
+                                              # Vector Analysis #
+###################################################################################################################
+
+#########################
+# Load Metadata and Vectors
+#########################
+
+```{r}
+# Clean up global environment
+rm(list = ls())
+
+df.vecs.list = list()
+df.inventory = list()
+court = c('ca1','ca2','ca3','ca4')
+
+for(i in 1:4){
+  print(i)
+  # Load Data
+  load(file=paste('data2/',court[i],'_vectors.RDATA',sep=''))
+  df.vecs.list[[i]] = as.data.frame(doc2_sum)
+  rm(doc2_idf,doc2_norm)
+  print(dim(df.vecs.list[[i]]))
+  
+  load(file=paste('data2/data_inventory.',court[i],'.RDATA',sep=''))
+  df.inventory[[i]] = df
+  print(dim(df.inventory[[i]]))
+}
+
+df.vecs = plyr::rbind.fill(df.vecs.list)
+df = plyr::rbind.fill(df.inventory)
+```
+
+#########################
+# Some Data Cleaning
+#########################
+
+```{r} 
+# Remove Missing Data
+df = df[which(!is.na(df$plain_text)),]
+
+# Merge Document Vectors to Metadata
+df = cbind(df.vecs,df[,c('judge','year','circuit')])
+df = df[which(!is.na(df$year)),]
+
+# If Judge is numeric, it's missing Set these to NA then remove
+df[,301][!is.na(as.numeric(df[,301]))] = NA
+df = df[!is.na(df[,301]),]
+dim(df)
+
+# Fix Judge Names
+df[,301] = tolower(df[,301])
+df[,301] = gsub(',','',df[,301])
+df[,301] = gsub('and','',df[,301])
+df[,301] = gsub('<span>','',df[,301])
+df[,301] = gsub('senior','',df[,301])
+
+for(i in 1:length(df[,301])){
+  if(length(strsplit(df[i,301],' ')[[1]]) > 1){
+    max.len = length(strsplit(df[i,301],' ')[[1]])
+    df[i,301] = strsplit(df[i,301],' ')[[1]][max.len]
+  }
+}
+
+df[,301] = trimws(df[,301])
+df = df[nchar(df[,301])<20,]
+dim(df)
+
+# How many unique judges?
+length(unique(df[,301]))
+ 
+# Convert to Data Frame
+df = as.data.frame(df, stringsAsFactors = F)
+```
+
+#########################
+# De-Mean by Year and by Court
+#########################
+
+```{r}
+# Convert doc vectors to numeric
+for(i in 1:300) df[,i] = as.numeric(df[,i])
+
+# De-mean by Year
+year.vectors = df %>%
+  select(-judge,-circuit) %>%
+  group_by(year) %>%
+  summarise_all("mean") %>%
+  filter(!is.na(year))
+
+years = unique(df$year[!is.na(df$year)])
+df = df[!is.na(df$year),]
+
+for(i in years){
+  print(i)
+  vectors.in.year.i = as.matrix(df[df$year==i,1:300])
+  mean.vector.year.i = as.matrix(year.vectors[year.vectors$year==i,] %>% select(-year))
+  df[df$year==i,1:300] = sweep(vectors.in.year.i,2,mean.vector.year.i)
+}
+
+df = df %>% select(-year)
+
+# De-mean by Court
+circuit.vectors = df %>%
+  select(-judge) %>%
+  group_by(circuit) %>%
+  summarise_all("mean") %>%
+  filter(!is.na(circuit))
+
+circuits = unique(df$circuit[!is.na(df$circuit)])
+df = df[!is.na(df$circuit),]
+
+for(i in circuits){
+  print(i)
+  vectors.in.circuit.i = as.matrix(df[df$circuit==i,1:300])
+  mean.vector.circuit.i = as.matrix(circuit.vectors[circuit.vectors$circuit==i,] %>% select(-circuit))
+  df[df$circuit==i,1:300] = sweep(vectors.in.circuit.i,2,mean.vector.circuit.i)
+}
+
+df = df %>% select(-circuit)
+```
+
+#########################
+# Get Judge Vectors
+#########################
+
+```{r} 
+# Summarize vectors for judge
+judge_vecs = df %>% group_by(judge) %>% summarise_all("mean")
+
+# Obtain count of docs per judge
+counts = df %>% group_by(judge) %>% summarise(n=n())
+counts$n
+
+# Join Judge Vec matrix with Counts. Only Keep vecs with more than 100 docs
+judge_vecs = judge_vecs %>% left_join(counts, by = 'judge') %>% filter(n>5) %>% select(-n)
+row.names(judge_vecs) = judge_vecs$judge
+
+# Join Judge Metadata
+# write.csv(judge_vecs,file='/Volumes/RESEARCH/EDSP/judges.csv')
+judge_meta = read.csv(file='/Volumes/RESEARCH/EDSP/metadata/Judge_Metadata - Export.csv', stringsAsFactors = F)
+final = judge_vecs %>% left_join(judge_meta,by=c('judge'='Judge'))
+
+# Duplicate last names
+dupes = final %>% 
+  group_by(judge) %>%
+  dplyr::summarise(n=n()) %>%
+  filter(n>1)
+
+# Remove Dupes
+final = final %>% filter(!judge %in% dupes$judge)
+judge_vecs = judge_vecs %>% filter(!judge %in% dupes$judge)
+
+# Remove Rows with Missing Judge Metadata
+judge_vecs = judge_vecs[!is.na(final$Judge.full),]
+final = final[!is.na(final$Judge.full),]
+```
+
+#########################
+# Principal Components
+#########################
+
+```{r}
+temp = judge_vecs %>% select(-judge)
+word_pca <- irlba::prcomp_irlba(temp, n = 10, center = T, scale. = T) # n = no. of principal component vectors to return
+plot(word_pca)
+
+final$Appointed.By = as.factor(as.character(final$Appointed.By))
+final$Born = as.factor(round(final$Born*.1)*10)
+
+plot.df = as.data.frame(word_pca$x[,1:4])
+plot.df$appointed = final$Appointed.By
+plot.df$party = final$Party
+plot.df$Born = as.numeric(as.character(final$Born))
+```
+
+```{r}
+# Plots
+ggplot(plot.df, aes(x=PC1, y=PC2,col=appointed,label=appointed)) + 
+  geom_point() +
+  geom_text() +
+  ggtitle('Principle Components of Judge Vectors')
+
+# 
+ggplot(plot.df, aes(x=PC1, y=PC2,col=Born,label=appointed)) + 
+  geom_point() +
+  geom_text() +
+  ggtitle('Principle Components of Judge Vectors')
+
+ggplot(plot.df, aes(x=PC1, y=PC2,col=party,label=party)) + 
+  geom_point() +
+  geom_text() +
+  ggtitle('Principle Components of Judge Vectors')
+```
+
+
+
+
+
+
+
+

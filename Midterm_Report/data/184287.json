@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/184287/",
+  "absolute_url": "/opinion/184287/west-v-united-states/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/184287/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2011-02-04T19:27:57Z",
+  "date_modified": "2017-03-24T09:55:28.651590Z",
+  "type": "010combined",
+  "sha1": "4b9fd4b1ffcf5bff8f04d6c3256c70c9da66334a",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-2132E-01A.pdf",
+  "local_path": "pdf/2011/02/04/West_v._US.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\nNo. 09-2132\n\n\n\n                        MATTHEW D. WEST,\n\n                     Petitioner, Appellant,\n\n                               v.\n\n                    UNITED STATES OF AMERICA,\n\n                      Respondent, Appellee.\n\n\n\n                          ERRATA SHEET\n\n\n     The opinion of this Court issued on January 26, 2011 is\namended as follows:\n\n     On page 5, lines 15-18, the sentence beginning “After\ninitially” is changed to read as follows: “After initially denying\nthe motion without prejudice, the trial court later purported to\ngrant West’s motion upon learning about West’s counsel’s failure,\nand West filed a direct appeal within the newly specified appeal\nperiod.”\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/195239/",
+  "absolute_url": "/opinion/195239/mount-v-smith/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/195239/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2011-02-07T02:35:59Z",
+  "date_modified": "2017-03-24T10:39:35.390088Z",
+  "type": "010combined",
+  "sha1": "39f606d8b6787d7f5c7cef4e19c18357b640ff26",
+  "page_count": null,
+  "download_url": "http://www.ca1.uscourts.gov/cgi-bin/getopn.pl?OPINION=93-1818.01A",
+  "local_path": null,
+  "plain_text": "March 11, 1994\n[NOT FOR PUBLICATION]\n\nUNITED STATES COURT OF APPEALS\nFOR THE FIRST CIRCUIT\n\n\n\nNo. 93-1818 \n\nCHARLES MERRILL MOUNT,\n\nPlaintiff, Appellant,\n\nv.\n\nROBERT J. SMITH, ETC.,\n\nDefendant, Appellee.\n\n\n\nAPPEAL FROM THE UNITED STATES DISTRICT COURT\n\nFOR THE DISTRICT OF MASSACHUSETTS\n\n[Hon. Joseph L. Tauro, U.S. District Judge]\n          \n\n\n\nBefore\n\nTorruella, Boudin and Stahl,\nCircuit Judges.\n\n\n\n\nCharles Merrill Mount on brief pro se.\n\nA.  John  Pappalardo,  United  States  Attorney,  and  Suzanne  E.\n                         \nDurrell, Assistant United States Attorney, on brief for appellee.\n\n\n\n\n\n\nPer Curiam.   For  the reasons recited  in the  district\n\n\ncourt's   opinion  dated  June  17,  1993,  the  judgment  is\n\naffirmed.\n",
+  "html": "<p class=\"case_cite\">19 F.3d 7</p>\n    <p class=\"parties\">NOTICE: First Circuit Local Rule 36.2(b)6 states unpublished opinions may be cited only in related cases.<br>Charles MERRILL MOUNT, Plaintiff, Appellant,<br>v.<br>Robert J. SMITH, ETC., Defendant, Appellee.</p>\n    <p class=\"docket\">No. 93-1818.</p>\n    <p class=\"court\">United States Court of Appeals,<br>First Circuit.</p>\n    <p class=\"date\">March 11, 1994</p>\n    <div class=\"prelims\">\n      <p class=\"indent\">Appeal from the United States District Court for the District of Massachusetts</p>\n      <p class=\"indent\">Charles Merrill Mount on brief pro se.</p>\n      <p class=\"indent\">A. John Pappalardo, United States Attorney, and Suzanne E. Durrell, Assistant United States Attorney, on brief for appellee.</p>\n      <p class=\"indent\">D.Mass.</p>\n      <p class=\"indent\">AFFIRMED.</p>\n      <p class=\"indent\">Before Torruella, Boudin and Stahl, Circuit Judges.</p>\n      <p class=\"indent\">Per Curiam.</p>\n    </div>\n    <div class=\"num\" id=\"p1\">\n      <span class=\"num\">1</span>\n      <p class=\"indent\">For the reasons recited in the district court's opinion dated June 17, 1993, the judgment is affirmed.</p>\n    </div>\n    ",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "<p class=\"case_cite\"><span class=\"citation no-link\"><span class=\"volume\">19</span> <span class=\"reporter\">F.3d</span> <span class=\"page\">7</span></span></p>\n    <p class=\"parties\">NOTICE: First Circuit Local Rule 36.2(b)6 states unpublished opinions may be cited only in related cases.<br>Charles MERRILL MOUNT, Plaintiff, Appellant,<br>v.<br>Robert J. SMITH, ETC., Defendant, Appellee.</p>\n    <p class=\"docket\">No. 93-1818.</p>\n    <p class=\"court\">United States Court of Appeals,<br>First Circuit.</p>\n    <p class=\"date\">March 11, 1994</p>\n    <div class=\"prelims\">\n      <p class=\"indent\">Appeal from the United States District Court for the District of Massachusetts</p>\n      <p class=\"indent\">Charles Merrill Mount on brief pro se.</p>\n      <p class=\"indent\">A. John Pappalardo, United States Attorney, and Suzanne E. Durrell, Assistant United States Attorney, on brief for appellee.</p>\n      <p class=\"indent\">D.Mass.</p>\n      <p class=\"indent\">AFFIRMED.</p>\n      <p class=\"indent\">Before Torruella, Boudin and Stahl, Circuit Judges.</p>\n      <p class=\"indent\">Per Curiam.</p>\n    </div>\n    <div class=\"num\" id=\"p1\">\n      <span class=\"num\">1</span>\n      <p class=\"indent\">For the reasons recited in the district court's opinion dated June 17, 1993, the judgment is affirmed.</p>\n    </div>\n    ",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

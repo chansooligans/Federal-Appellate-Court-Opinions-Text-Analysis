@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/183883/",
+  "absolute_url": "/opinion/183883/united-states-v-cardales-luna/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/183883/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2011-01-28T21:21:43Z",
+  "date_modified": "2017-03-24T09:53:55.524976Z",
+  "type": "010combined",
+  "sha1": "348a22b845a1a18cf87b8463bb57cb69adaa0bf4",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-1028E-01A.pdf",
+  "local_path": "pdf/2011/01/28/US_v._Cardales-Luna.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 08-1028\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                 JOSÉ DEL CARMEN CARDALES-LUNA,\n\n                      Defendant, Appellant.\n\n\n\n\n                          ERRATA SHEET\n\n\n     The opinion of this Court issued on January 20, 2011, is\namended as follows:\n\n     On p.16, lines 18-19, should read: \"... in which four of the\ncrew members were found guilty, while three were acquitted.\"\n\n     On p.34, line 19, insert a closing parenthesis after\n\"Supremacy Clause.\"\n\n     On p.43, line 22, and p.44, line 2, should read:\n\"UNCAITNDPS\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

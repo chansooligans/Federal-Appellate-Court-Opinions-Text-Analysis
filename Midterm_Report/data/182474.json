@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/182474/",
+  "absolute_url": "/opinion/182474/united-states-v-franklin/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/182474/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2011-01-07T21:24:43Z",
+  "date_modified": "2017-03-24T09:47:41.991036Z",
+  "type": "010combined",
+  "sha1": "e04ceb7763beb77d094331cf6d0bef07f819c0ce",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1529E-01A.pdf",
+  "local_path": "pdf/2011/01/07/US_v._Franklin.pdf",
+  "plain_text": "          United States Court of Appeals\n                      For the First Circuit\n\n\nNo. 09-1529\n\n                          UNITED STATES,\n\n                            Appellee,\n\n                                v.\n\n                         DARREN FRANKLIN,\n\n                      Defendant, Appellant.\n\n\n                           ERRATA SHEET\n\n     The opinion of this Court issued on January 5, 2011 is amended\nas follows:\n\n     On   p.5,   line  9, add     the  following   footnote   after\n\"MacLaughlin\": \"The record includes both McLaughlin and MacLaughlin\nas spellings of the detective's name; we choose the more frequently\noccurring MacLaughlin.\" Renumber footnotes 2-6.\n\n     On p.7, line 20, and on p.8, line 1, \"McLaughlin\" should be\n\"MacLaughlin\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

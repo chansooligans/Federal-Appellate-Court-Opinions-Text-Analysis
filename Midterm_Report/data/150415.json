@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/150415/",
+  "absolute_url": "/opinion/150415/gonzalez-fuentes-v-molina/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/150415/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-07-12T18:47:35Z",
+  "date_modified": "2017-03-24T07:13:50.553155Z",
+  "type": "010combined",
+  "sha1": "3e74c6caf308a5a06eedb7b8bf485c7a17ab8be7",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-1818E2-01A.pdf",
+  "local_path": "pdf/2010/07/12/Carmen_Rivera-Feliciano_v._Anibal_Acevedo-Vila.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\nNo. 08-1818\n\n                EFRAÍN GONZÁLEZ-FUENTES, et al.,\n\n                     Petitioners, Appellees,\n\n                               v.\n\n        HON. CARLOS MOLINA, Secretary of Corrections and\n       Rehabilitation of Puerto Rico and Administrator of\n         Corrections of the Commonwealth of Puerto Rico,\n\n                     Respondent, Appellant.\n\nNo. 08-1819\n\n                 CARMEN RIVERA-FELICIANO, et al.\n\n                      Plaintiffs, Appellees\n\n                               v.\n\n        HON. LUIS FORTUNO BURSET, Governor of Puerto Rico;\n     HON. ROBERTO SANCHEZ-RAMOS, Secretary of Justice of the\n   Commonwealth of Puerto Rico; HON. CARLOS MOLINA, Secretary\n       of Corrections and Rehabilitation of Puerto Rico and\nAdministrator of Corrections of the Commonwealth of Puerto Rico;\n      HON. JOSE R. LOZADA, Director of the Bureau of Special\n        Investigations of the Commonwealth of Puerto Rico,\n\n                     Defendants, Appellants\n\n\n                          ERRATA SHEET\n\n     The opinion of this Court issued on June 10, 2010 is amended\nas follows:\n\n     On page 21, note 10, line 1, replace \"Nearly all\" with\n\"Many\"\n     On page 21, note 10, line 2, replace \"One, however,\ncommitted his crime\" with \"Some, however, committed their crimes\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

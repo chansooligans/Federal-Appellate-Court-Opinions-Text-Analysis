@@ -1,0 +1,25 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/182472/",
+  "absolute_url": "/opinion/182472/united-states-v-southern-union-company/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/182472/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2011-01-07T21:24:42Z",
+  "date_modified": "2017-03-24T09:47:41.689490Z",
+  "type": "010combined",
+  "sha1": "feec855a9d1c1b9f8b7a359e4ffa86d8a3b09d71",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-2403E-01A.pdf",
+  "local_path": "pdf/2011/01/07/US_v._Southern_Union_Company.pdf",
+  "plain_text": "          United States Court of Appeals\n                      For the First Circuit\n\n\nNo. 09-2403\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                                v.\n\n                     SOUTHERN UNION COMPANY,\n\n                      Defendant, Appellant.\n\n\n\n\n                           ERRATA SHEET\n\n\n     The opinion of this Court issued on December 22, 2010, is\namended as follows:\n\n     On the cover page, in the final line, the comma after\n\"Justice\" is deleted, and a comma is inserted after \"brief.\"\n\n     On page 12, footnote 4, line 3, \"indicating EPA\" is changed to\n\"indicating that the EPA.\"\n\n     On page 25, line 11, \"manage highly regulated industries\" is\nchanged to \"manage companies in highly regulated industries.\"\n\n     On page 30, line 17, \"2010\" is changed to \"2009.\"\n\n     On page 31, footnote 13, line 5, \"Ice, 129 S. Ct. at 718-19\"\nis changed to \"Oregon v. Ice, 129 S. Ct. 711, 718-19 (2009).\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "<pre class=\"inline\">          United States Court of Appeals\n                      For the First Circuit\n\n\nNo. 09-2403\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                                v.\n\n                     SOUTHERN UNION COMPANY,\n\n                      Defendant, Appellant.\n\n\n\n\n                           ERRATA SHEET\n\n\n     The opinion of this Court issued on December 22, 2010, is\namended as follows:\n\n     On the cover page, in the final line, the comma after\n\"Justice\" is deleted, and a comma is inserted after \"brief.\"\n\n     On page 12, footnote 4, line 3, \"indicating EPA\" is changed to\n\"indicating that the EPA.\"\n\n     On page 25, line 11, \"manage highly regulated industries\" is\nchanged to \"manage companies in highly regulated industries.\"\n\n     On page 30, line 17, \"2010\" is changed to \"2009.\"\n\n     On page 31, footnote 13, line 5, \"Ice, 129 S. Ct. at 718-19\"\nis changed to \"Oregon v. Ice, </pre><span class=\"citation\" data-id=\"145921\"><a href=\"/opinion/145921/oregon-v-ice/\"><span class=\"volume\">129</span> <span class=\"reporter\">S. Ct.</span> <span class=\"page\">711</span></a></span><pre class=\"inline\">, 718-19 (2009).\"\n\f</pre>",
+  "extracted_by_ocr": false,
+  "opinions_cited": [
+    "http://www.courtlistener.com/api/rest/v3/opinions/145921/"
+  ]
+}

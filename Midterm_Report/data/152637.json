@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/152637/",
+  "absolute_url": "/opinion/152637/ims-health-inc-v-rowe/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/152637/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-08-10T16:09:08Z",
+  "date_modified": "2017-03-24T07:27:07.190040Z",
+  "type": "010combined",
+  "sha1": "6abbacaa2d2a555b80703a8783d547e7f3be7d27",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-1248E-01A.pdf",
+  "local_path": "pdf/2010/08/10/IMS_Health_Inc._v._Rowe.pdf",
+  "plain_text": "          United States Court of Appeals\n                      For the First Circuit\n\n\nNo. 08-1248\n\n  IMS HEALTH INCORPORATED, VERISPAN, LLC, and SOURCE HEALTHCARE\nANALYTICS, INC., a subsidiary of WOLTERS KLUWER HEALTH, INC.,\n\n                      Plaintiffs, Appellees,\n\n                                 v.\n\n   JANET T. MILLS, as Attorney General for the State of Maine,\n\n                      Defendant, Appellant.\n\n\n                           ERRATA SHEET\n\n     The opinion of this Court issued on August 4, 2010, is amended\nas follows:\n\n     On page 19, line 6, \"opted-in\" is changed to \"opted in\".\n\n     On page 21, line    14,   \"Prescribers'   also\"   is   changed   to\n\"Prescribers also\".\n\n     On page 25, line 13, insert \"Me. Rev. Stat. Ann. tit. 22,\"\nbefore \"§ 1711-E(1-A)(B)\".\n\n     On page 35, line 8, change \"impact in\" to \"impact on\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

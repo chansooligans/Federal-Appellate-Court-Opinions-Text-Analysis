@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/177301/",
+  "absolute_url": "/opinion/177301/united-states-v-sebastian/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/177301/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-10-15T18:11:59Z",
+  "date_modified": "2017-03-24T09:23:21.277481Z",
+  "type": "010combined",
+  "sha1": "d6759c7d2b1f838cb51d92991ae13b3f0017f8cf",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-2533E-01A.pdf",
+  "local_path": "pdf/2010/10/15/US_v._Sebastian.pdf",
+  "plain_text": "            United States Court of Appeals\n                       For the First Circuit\n\nNo. 08-2533\n\n                      UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                 v.\n\n                          CALVIN SEBASTIAN,\n\n                        Defendant, Appellant.\n\n\n\n                            ERRATA SHEET\n\n     The opinion of this Court issued on July 16, 2010, is\namended as follows:\n\n       On page 6, line 3, replace \"is\" with \"are\"\n\n       One page 6, line 4, place \"that it was not\" with \"they were\nnot\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

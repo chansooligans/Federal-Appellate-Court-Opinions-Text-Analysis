@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/174120/",
+  "absolute_url": "/opinion/174120/united-states-v-gonzalez/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/174120/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-08-26T19:18:50Z",
+  "date_modified": "2017-03-24T09:08:06.215677Z",
+  "type": "010combined",
+  "sha1": "3a871c1bde112a9d44a369a2a82687247f89d62c",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-2578E-01A.pdf",
+  "local_path": "pdf/2010/08/26/US_v._Gonzalez.pdf",
+  "plain_text": "              United States Court of Appeals\n                               For the First Circuit\n\nNo. 08-2578\n\n                              UNITED STATES OF AMERICA,\n\n                                           Appellee,\n\n                                               v.\n\n                                     JESUS GONZALEZ,\n\n                                     Defendant, Appellant.\n\n\n                                       ERRATA SHEET\n\n\n      The opinion of this Court issued on June 23, 2010, is amended as follows:\n\n      On page 11, line 19, insert \"the\" before \"police.\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

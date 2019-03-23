@@ -3,10 +3,9 @@
 Education Data Science Practicum Spring 2019
 
 Project Started: 1/30/2019  
-Updated: 3/10/2019
+Updated: 3/23/2019
 
-## See "Week 7 Progress Report.ipynb" for progress
-## See "Journal.md" for journal
+## Download and Run "Midterm_Sample" folder for analysis using a sample that you can run on your local device
 
 #### Accomplished so far:
 1. Data collection: 

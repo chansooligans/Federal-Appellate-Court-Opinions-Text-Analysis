@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/176415/",
+  "absolute_url": "/opinion/176415/fusi-v-obrien/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/176415/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-10-01T19:43:32Z",
+  "date_modified": "2017-03-24T09:20:35.312520Z",
+  "type": "010combined",
+  "sha1": "a5e6043c84f80cb65fcbe0701a712b9ef7d970cd",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1060E-01A.pdf",
+  "local_path": "pdf/2010/10/01/Fusi_v._OBrien.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\nNo. 09-1060\n\n                          ALFRED P. FUSI,\n\n                     Petitioner, Appellant,\n\n                                v.\n\n                          STEVEN O’BRIEN,\n\n                      Respondent, Appellee.\n\n\n\n                           ERRATA SHEET\n\n\n     The opinion of this Court, issued on September 16, 2010,\n\nshould be amended as follows.\n\n     On page 5, line 5,   replace \"purse\" with \"pursue\"\n\n     On page17, line 5, replace \"planed\" with \"planned\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

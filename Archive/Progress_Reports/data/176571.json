@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/176571/",
+  "absolute_url": "/opinion/176571/united-states-v-gagnon/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/176571/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-10-05T16:52:42Z",
+  "date_modified": "2017-03-24T09:20:59.337607Z",
+  "type": "010combined",
+  "sha1": "5463dcde196c918a5b4998ecf986326d583dd583",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1047E-01A.pdf",
+  "local_path": "pdf/2010/10/05/US_v._Gagnon.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 09-1047\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                          BRUCE GAGNON,\n\n                      Defendant, Appellant.\n\n\n                          ERRATA SHEET\n\n     The opinion of this Court issued on September 28, 2010 is\ncorrected as follows:\n\n     On p.5, l.11, \"F3d.\" should be \"F.3d\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

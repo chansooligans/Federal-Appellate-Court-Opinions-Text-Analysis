@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/181045/",
+  "absolute_url": "/opinion/181045/igartua-v-united-states/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/181045/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-12-14T17:12:59Z",
+  "date_modified": "2017-03-24T09:41:32.848949Z",
+  "type": "010combined",
+  "sha1": "4a8f6871b3b2eb123e53e9dea94b082e0f6e009e",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-2186E2-01A.pdf",
+  "local_path": "pdf/2010/12/14/Igartua_v._US.pdf",
+  "plain_text": "            United States Court of Appeals\n                        For the First Circuit\n\n\nNo. 09-2186\n\n                      GREGORIO IGARTÚA, ET AL.,\n\n                       Plaintiffs, Appellants,\n\n                                  v.\n\n                  UNITED STATES OF AMERICA, ET AL.,\n\n                        Defendants, Appellees.\n\n\n\n\n                             ERRATA SHEET\n\n\n     The opinion of this Court issued on November 24, 2010, is\namended as follows:\n\n       On page 29, footnote 13, line 2, \"Oct. 24\" is changed to \"Oct.\n25\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

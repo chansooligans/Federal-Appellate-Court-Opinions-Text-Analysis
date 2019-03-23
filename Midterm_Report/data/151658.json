@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/151658/",
+  "absolute_url": "/opinion/151658/united-states-v-de-la-paz-rentas/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/151658/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-07-27T17:48:09Z",
+  "date_modified": "2017-03-24T07:20:11.890619Z",
+  "type": "010combined",
+  "sha1": "54425efe23adbc3f5bce0ed0af8cc6712050e420",
+  "page_count": 2,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-1820E-01A.pdf",
+  "local_path": "pdf/2010/07/27/US_v._Torres-Gonzalez.pdf",
+  "plain_text": "              United States Court of Appeals\n                        For the First Circuit\n\nNo. 08-1820\n\n                      UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                  v.\n\n                NATANAEL DE LA PAZ-RENTAS, a/k/a NATO,\n\n                        Defendant, Appellant.\n                         ____________________\n\nNo. 08-1821\n\n                      UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                  v.\n\n                        VICTOR SANJURJO-NUNEZ,\n\n                        Defendant, Appellant.\n                         ___________________\n\nNo. 09-1397\n\n                      UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                  v.\n\n                        PEDRO MOLINA-BONILLA,\n\n                        Defendant, Appellant.\n                         ____________________\n\fNo. 09-1639\n\n                      UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                 v.\n\n              WALDEMAR TORRES-GONZALEZ, a/k/a WALDY,\n\n                        Defendant, Appellant.\n                         ____________________\n\n                               ERRATA\n\n     The opinion of this Court, issued on July 20, 2010, should be\n\namended as follows.\n\n     On page 16, line 1 of 2nd full paragraph, delete \"not\" between\n\n\"been\" and \"shown\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

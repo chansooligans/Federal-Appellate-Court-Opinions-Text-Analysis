@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/183882/",
+  "absolute_url": "/opinion/183882/united-states-v-holloway/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/183882/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2011-01-28T21:21:39Z",
+  "date_modified": "2017-03-24T09:53:55.525090Z",
+  "type": "010combined",
+  "sha1": "915fc50580ba8f35134fdd9b95f38df5a50efde8",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-2273E-01A.pdf",
+  "local_path": "pdf/2011/01/28/US_v._Calvo.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 08-2273\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                         CURTIS HOLLOWAY,\n                TRUE NAME: CURTIS KAREEM HOLLOWAY,\n       A/K/A CURTIS H. HOLLOWAY, A/K/A CURTIS K. HOLLOWAY,\n\n                      Defendant, Appellant.\n\n\nNo. 09-1232\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                       RICARDO CALVO,JR.,\n\n                      Defendant, Appellant.\n\n\n                          ERRATA SHEET\n\n     The opinion of this Court issued on January 21, 2011 is\namended as follows:\n\n     On page 4, line 9, the quotation mark following 2004).\nshould be deleted.\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

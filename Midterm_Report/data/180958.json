@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/180958/",
+  "absolute_url": "/opinion/180958/igartua-v-united-states/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/180958/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-12-13T20:19:39Z",
+  "date_modified": "2017-03-24T09:40:09.602112Z",
+  "type": "010combined",
+  "sha1": "ad1a05e45c8e39e4579cd2b5adf7ad58d6daeca1",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-2186E-01A.pdf",
+  "local_path": "pdf/2010/12/13/Igartua_v._US.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 09-2186\n\n                    GREGORIO IGARTÚA, ET AL.,\n\n                     Plaintiffs, Appellants,\n\n                               v.\n\n                UNITED STATES OF AMERICA, ET AL.,\n\n                     Defendants, Appellees.\n\n\n\n                          ERRATA SHEET\n\n\n     The opinion of this Court issued on November 24, 2010, is\namended as follows:\n\n     On pp. 77-78, footnote 47: insert a quotation mark at the\nbeginning of \"was\" to read \"\"was not a counter-offer\").\"\n\n     On p. 89, lines 4 and 17: should read \"supra note 34\"\n\n     On p. 91, line 4: should read \"supra note 34\"\n\n     On p. 91, lines 6 and 17 of footnote 53: should read \"supra\nnote 34\"\n\n     On p. 92, lines 1, 11, and 16: should read \"supra note 34\"\n\n     On p. 93, line 1: should read \"supra note 34\"\n\n     On p. 93, lines 8 and 16 of footnote 55: should read \"supra\nnote 34\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/173727/",
+  "absolute_url": "/opinion/173727/ims-health-inc-v-rowe/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/173727/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-08-19T19:50:24Z",
+  "date_modified": "2017-03-24T09:05:31.619914Z",
+  "type": "010combined",
+  "sha1": "f08ef0d2f75845239bb3ce594820dd0293016157",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-1248E2-01A.pdf",
+  "local_path": "pdf/2010/08/19/IMS_Health_Inc._v._Rowe.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 08-1248\n\n  IMS HEALTH INCORPORATED, VERISPAN, LLC, and SOURCE HEALTHCARE\nANALYTICS, INC., a subsidiary of WOLTERS KLUWER HEALTH, INC.,\n\n                     Plaintiffs, Appellees,\n\n                               v.\n\n   JANET T. MILLS, as Attorney General for the State of Maine,\n\n                      Defendant, Appellant.\n\n\n                          ERRATA SHEET\n\n     The opinion of this Court issued on August 4, 2010, is\namended as follows:\n\n     On page 27, line 6 of footnote 17, \"plaintiffs\" is changed\nto \"plaintiffs'\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

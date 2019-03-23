@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/173726/",
+  "absolute_url": "/opinion/173726/united-states-v-gerhard/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/173726/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-08-19T19:50:23Z",
+  "date_modified": "2017-03-24T09:05:31.585686Z",
+  "type": "010combined",
+  "sha1": "2583ff9ecd49b9db1ddd09482b16099c69f6c6c0",
+  "page_count": 2,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-2056E2-01A.pdf",
+  "local_path": "pdf/2010/08/19/US_v._Gonzalez.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 08-2056\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                         JASON GERHARD,\n\n                      Defendant, Appellant,\n\n\nNo. 08-2300\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                        CIRINO GONZALEZ,\n\n                      Defendant, Appellant,\n\n\nNo. 08-2450\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                          DANIEL RILEY,\n\n                      Defendant, Appellant.\n\n\n                          ERRATA SHEET\n\n     The opinion of this Court issued on July 30, 2010, is\n\famended as follows:\n\n     On page 9, line 20, \"riles\" is changed to \"rifles\".\n\n     On page 11, line 7, \"2009\" is changed to \"2007\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

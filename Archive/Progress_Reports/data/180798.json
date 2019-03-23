@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/180798/",
+  "absolute_url": "/opinion/180798/united-states-v-matos-luchi/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/180798/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-12-09T20:46:37Z",
+  "date_modified": "2017-03-24T09:39:17.989317Z",
+  "type": "010combined",
+  "sha1": "866fca098bdc3df472eb1aee5613f5f2edf0ba43",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-2289E-01A.pdf",
+  "local_path": "pdf/2010/12/09/US_v._Carrasco-Carrasco.pdf",
+  "plain_text": "             United States Court of Appeals\n                         For the First Circuit\n\nNos. 08-2289, 08-2290, 08-2291\n\n                     UNITED STATES OF AMERICA,\n\n                                Appellee,\n\n                                   v.\n\n              EPIFANIO MATOS-LUCHI, MANOLO SOTO-PÉREZ,\n                      RAMÓN CARRASCO-CARRASCO,\n\n                         Defendants, Appellants.\n\n\n                                 ERRATA\n\n     The opinion of this Court, issued on December 1, 2010, should\n\nbe amended as follows.\n\n     On page 5, last line on page, insert \"of\" between \"background\"\n\nand \"the\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

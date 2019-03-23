@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/184286/",
+  "absolute_url": "/opinion/184286/plumbersunion-v-nomura-asset-acceptance-corp/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/184286/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2011-02-04T19:27:56Z",
+  "date_modified": "2017-03-24T09:55:28.597039Z",
+  "type": "010combined",
+  "sha1": "1711fde62853cb200ba02df07e13448e112e25e9",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-2596E2-01A.pdf",
+  "local_path": "pdf/2011/02/04/Plumbers_Union_Local_No._12_v._Graham.pdf",
+  "plain_text": "              United States Court of Appeals\n                       For the First Circuit\n\nNo. 09-2596\n\n  PLUMBERS' UNION LOCAL NO. 12 PENSION FUND, Individually and on\n behalf of all others similarly situated; PLUMBERS' & PIPEFITTERS'\n    WELFARE EDUCATIONAL FUND; NECA-IBEW HEALTH & WELFARE FUND,\n\n                      Plaintiffs, Appellants,\n\n                                 v.\n\n NOMURA ASSET ACCEPTANCE CORPORATION; JOHN P. GRAHAM; NATHAN GORIN;\n   JOHN McCARTHY; DAVID FINDLAY; ALTERNATIVE LOAN TRUST 2006-AF1;\n  ALTERNATIVE LOAN TRUST 2006-AF2; ALTERNATIVE LOAN TRUST 2006-AP1;\nALTERNATIVE LOAN TRUST AR2; ALTERNATIVE LOAN TRUST AR3; ALTERNATIVE\n     LOAN TRUST 2006-AR4; ALTERNATIVE LOAN TRUST 2006-WF1; NOMURA\n  SECURITIES INTERNATIONAL, INC.; GREENWICH CAPITAL MARKETS, INC.;\nUBS SECURITIES, LLC; CITIGROUP GLOBAL MARKETS, INC.; MERRILL LYNCH,\n   PIERCE, FENNER & SMITH, INC.; GOLDMAN, SACHS & CO.; ALTERNATIVE\n                         LOAN TRUST 2006-AR1,\n\n                       Defendants, Appellees.\n\n\n                               ERRATA\n\n\n     The opinion of this Court, issued on January 20, 2011, should be\n\namended as follows.\n\n     On page 12, line 10 of 1st full paragraph, replace \"freshman\"\n\nwith \"freshmen\".\n\n     On page 12, line 12 of 1st full paragraph, insert \"at\" after\n\n\"Id.\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

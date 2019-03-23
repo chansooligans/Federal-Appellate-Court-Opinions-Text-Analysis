@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/180216/",
+  "absolute_url": "/opinion/180216/cortes-rivera-v-pr-department-of-corrections/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/180216/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-12-01T20:51:57Z",
+  "date_modified": "2017-03-24T09:37:29.804491Z",
+  "type": "010combined",
+  "sha1": "d04fdc1210ecc02becbded1e537b9deb7534cca5",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1858E-01A.pdf",
+  "local_path": "pdf/2010/12/01/Cortes-Rivera_v._PR_Department_of_Corrections.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 09-1858\n\n                     ENRIQUE CORTÉS-RIVERA,\n\n                      Plaintiff, Appellant,\n\n                               v.\n\nDEPARTMENT OF CORRECTIONS AND REHABILITATION OF THE COMMONWEALTH\n OF PUERTO RICO; MIGUEL PEREIRA-CASTILLO, in his individual and\n official capacity as Secretary of the Department of Corrections\n and Rehabilitation of Puerto Rico; CORRECTIONAL HEALTH SERVICES\n                           CORPORATION,\n\n                     Defendants, Appellees.\n\n\n\n\n                          ERRATA SHEET\n\n\n     The opinion of this Court issued on November 16, 2010, is\namended as follows:\n\n     On page 3, line 22, \"Guillian\" is changed to \"Guillain\".\n\n     On page 5, line 19, \"July 31\" is changed to \"July 1\".\n\n     On page 6, line 7, \"joint motion\" is changed to \"motions\".\n\n     On page 7, line 9, \"joint motion\" is changed to \"motions\".\n\n     On page 10, line 21, \"(9th Cir. 2009),\" is changed to \"(9th\nCir. 2009);\".\n\n     On page 16, line 10, \"permissively\" is changed to\n\"permissibly\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

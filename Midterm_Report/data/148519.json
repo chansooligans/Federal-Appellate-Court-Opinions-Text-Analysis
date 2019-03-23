@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/148519/",
+  "absolute_url": "/opinion/148519/rule-v-fort-dodge-animal-health-inc/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/148519/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-06-14T19:26:40Z",
+  "date_modified": "2017-03-24T06:59:33.063698Z",
+  "type": "010combined",
+  "sha1": "f53ccb479d9482efdd50630f7264eb4e060de633",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1364E-01A.pdf",
+  "local_path": "pdf/2010/06/14/Rule_v._Fort_Dodge_Animal_Health_Inc..pdf",
+  "plain_text": "              United States Court of Appeals\n                         For the First Circuit\n\nNo. 09-1364\n\n             JESSICA C. RULE, individually and on behalf of\n                     all others similarly situated,\n\n                         Plaintiff, Appellant,\n\n                                   v.\n\n                    FORT DODGE ANIMAL HEALTH, INC.,\n                         and WYETH CORPORATION,\n\n                         Defendants, Appellees.\n\n\n                                 ERRATA\n\n     The opinion of this Court, issued on June 2, 2010, should be\n\namended as follows.\n\n     On page 6, line 6 of 2nd paragraph, replace \"F.2d\" with \"F.\n\nSupp. 2d\".\n\n     On page 7, line 7 of 1st paragraph, replace \"or\" with \"nor\".\n\n     On page 10, footnote 6, line 1, delete \", see note 4,\".\n\n     On page 10, footnote 6, line 5, delete \"Iannacchino,\".\n\n     On page 12, line 3 of 2nd paragraph, replace \"see note 7\" with\n\n\"see note 5\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

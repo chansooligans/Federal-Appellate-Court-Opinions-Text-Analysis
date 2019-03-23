@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/176060/",
+  "absolute_url": "/opinion/176060/united-states-v-ditomasso/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/176060/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-09-28T16:07:20Z",
+  "date_modified": "2017-03-24T09:19:18.571168Z",
+  "type": "010combined",
+  "sha1": "3077036b27f15c2bd5a89609f074ac2d810e6882",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-2567E-01A.pdf",
+  "local_path": "pdf/2010/09/28/US_v._DiTomasso.pdf",
+  "plain_text": "              United States Court of Appeals\n                         For the First Circuit\n\nNo. 08-2567\n\n                     UNITED STATES OF AMERICA,\n\n                               Appellee,\n\n                                  v.\n\n                          MICHAEL DiTOMASSO,\n\n                         Defendant, Appellant.\n                               __________\n\n                                ERRATA\n\n\n     The opinion of this Court, issued on September 22, 2010, should\n\nbe amended as follows.\n\n     On page 26, line 12, \"sex offender\" should be \"sex offense\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

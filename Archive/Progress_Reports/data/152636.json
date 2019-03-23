@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/152636/",
+  "absolute_url": "/opinion/152636/united-states-v-gerhard/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/152636/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-08-10T16:09:07Z",
+  "date_modified": "2017-03-24T07:27:07.106533Z",
+  "type": "010combined",
+  "sha1": "b809bc5c077bddd1475288f9dfa23b297b4ea677",
+  "page_count": 2,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-2056E-01A.pdf",
+  "local_path": "pdf/2010/08/10/US_v._Gonzalez.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 08-2056\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                         JASON GERHARD,\n\n                      Defendant, Appellant,\n\n\nNo. 08-2300\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                        CIRINO GONZALEZ,\n\n                      Defendant, Appellant,\n\n\nNo. 08-2450\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                          DANIEL RILEY,\n\n                      Defendant, Appellant.\n\n\n                          ERRATA SHEET\n\n     The opinion of this Court issued on July 30, 2010, is amended\n\fas follows:\n\n     On page 5, line 4, strike \"§ 371\".\n\n     On page 21, line 6, strike \"from\" after \"person\".\n\n     On page 43, line 17, \"Employees\" is changed to \"Officers\".\n\n     On page 50, line 2, the comma after \"Count 1\" is replaced with\na semicolon.\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

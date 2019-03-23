@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/173723/",
+  "absolute_url": "/opinion/173723/hakim-v-holder/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/173723/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-08-19T19:50:19Z",
+  "date_modified": "2017-03-24T09:05:31.288290Z",
+  "type": "010combined",
+  "sha1": "9c7e3b947c983a73ce19ee3d21ac504c25eefe6e",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1692E-01A.pdf",
+  "local_path": "pdf/2010/08/19/Hakim_v._Holder_Jr..pdf",
+  "plain_text": "          United States Court of Appeals\n                      For the First Circuit\n\n\nNo. 09-1692\n\n                         JOHANNES HAKIM,\n\n                           Petitioner,\n\n                                v.\n\n                       ERIC H. HOLDER, JR.,\n              ATTORNEY GENERAL OF THE UNITED STATES,\n\n                           Respondent.\n\n\n\n\n                           ERRATA SHEET\n\n\n     The opinion of this Court issued on July 9, 2010, is amended\nas follows:\n\n     On page 7, line 19, replace \"(I) a determination...\" with \"(i)\na determination...\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

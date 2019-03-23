@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/149517/",
+  "absolute_url": "/opinion/149517/united-states-v-roa-medina/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/149517/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-06-25T16:28:37Z",
+  "date_modified": "2017-03-24T07:07:54.110406Z",
+  "type": "010combined",
+  "sha1": "6bff511c240b7e41da9c03ada3fea98bc7bb1a04",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-2490E-01A.pdf",
+  "local_path": "pdf/2010/06/25/US_v._Medina.pdf",
+  "plain_text": "              United States Court of Appeals\n                             For the First Circuit\n\nNo. 08-2490\n\n                            UNITED STATES OF AMERICA,\n\n                                         Appellee,\n\n                                             v.\n\n                                  EDDY ROA-MEDINA,\n\n                                   Defendant, Appellant.\n\n\n\n                                    ERRATA SHEET\n\n          The opinion of this Court issued on June 2, 2010, is amended as follows:\n\n      On the coversheet replace \"Chauncy\" with \"Chauncey\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

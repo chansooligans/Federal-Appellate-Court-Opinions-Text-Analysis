@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/149514/",
+  "absolute_url": "/opinion/149514/the-real-estate-bar-v-national-real-estate-info/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/149514/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-06-25T16:28:35Z",
+  "date_modified": "2017-03-24T07:07:49.030542Z",
+  "type": "010combined",
+  "sha1": "b377b6429d6c248761b837e417ea90e99de883ec",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1809E-01A.pdf",
+  "local_path": "pdf/2010/06/25/The_Real_Estate_Bar_Assoc._v._National_Real_Estate_Info..pdf",
+  "plain_text": "          United States Court of Appeals\n                      For the First Circuit\n\n\nNo. 09-1809\n\n    THE REAL ESTATE BAR ASSOCIATION FOR MASSACHUSETTS, INC.,\n\n                      Plaintiff, Appellant,\n\n                                v.\n\n           NATIONAL REAL ESTATE INFORMATION SERVICES;\n        NATIONAL REAL ESTATE INFORMATION SERVICES, INC.,\n\n                      Defendants, Appellees.\n\n\n\n                           ERRATA SHEET\n\n     The opinion of this Court, issued on June 21, 2010, is amended\nas follows:\n\n     On page 5, at line 10, \"are\" is replaced with \"can be\".\n\n     On page 10, at line 16, a comma should be placed after \"§ 46\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

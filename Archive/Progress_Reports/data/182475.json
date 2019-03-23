@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/182475/",
+  "absolute_url": "/opinion/182475/united-states-v-rodriguez/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/182475/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2011-01-07T21:24:44Z",
+  "date_modified": "2017-03-24T09:47:42.075378Z",
+  "type": "010combined",
+  "sha1": "e9107d9a202c6065f1e34405acb1517fbe0ebc78",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1429E-01A.pdf",
+  "local_path": "pdf/2011/01/07/US_v._Rodriguez.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 09-1429\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                       RICARDO RODRIGUEZ,\n\n                      Defendant, Appellant.\n\n\n                          ERRATA SHEET\n\n     The opinion of this Court issued on December 28, 2010 is\namended as follows:\n\n     On page 2, line 16, change \"108-130\" to \"108-135\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

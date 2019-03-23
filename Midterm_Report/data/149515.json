@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/149515/",
+  "absolute_url": "/opinion/149515/sam-m-ex-rel-elliott-v-carcieri/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/149515/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-06-25T16:28:36Z",
+  "date_modified": "2017-03-24T07:07:54.094791Z",
+  "type": "010combined",
+  "sha1": "e4a2b67063ce4db919c1424acd3f87009c30b58a",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1759E-01A.pdf",
+  "local_path": "pdf/2010/06/25/M._v._Carcieri.pdf",
+  "plain_text": "              United States Court of Appeals\n                      For the First Circuit\n\n\n\n\nNo. 09-1759\n\n       SAM and TONY M., by Next Friend Gregory C. Elliott;\n    CAESAR S., by Next Friend Kathleen J. Collins; DAVID T.,\n     by Next Friend Mary Melvin; BRIANA, ALEXIS, CLARE, and\n        DEANNA H., by Next Friend Gregory C. Elliott; and\n    DANNY and MICHAEL B., by Next Friend Gregory C. Elliott;\n           for themselves and those similarly situated,\n                      Plaintiffs, Appellants,\n\n\n                               v.\n\n     DONALD L. CARCIERI, in his official capacity as Governor\n       of the State of Rhode Island; JANE A. HAYWARD, in her\n    official capacity as Secretary of the Executive Office of\n      Health & Human Services; and PATRICIA MARTÍNEZ, in her\n         official capacity as Director of the Department of\n                    Children, Youth and Families,\n                        Defendants, Appellees.\n\n\n\n\n                          ERRATA SHEET\n\n\n     The opinion of this Court issued on June 18, 2010, is amended\nas follows:\n\n     On p. 3, n.1, line 9: replace \"Danny and Michael M.\" with\nDanny and Michael B.\";\n\n     On p. 18, n.10, line 7: replace \"dully\" with \"duly\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

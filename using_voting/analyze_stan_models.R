@@ -2,7 +2,7 @@ library(dplyr)
 
 rm(list=ls())
 setwd('/Users/chansoosong/Desktop/Research/edsp2019project-chansooligans/using_voting/')
-load(file='stan_fit_using_voting_1PL.RDATA')
+load(file='/Volumes/RESEARCH/EDSP/stan_fit_using_voting_1PL.RDATA')
 raw_data = read.csv('data/SCDB_2018_02_justiceCentered_Citation.csv')
 cols_to_keep = c('caseId','justice','vote')
 
@@ -41,7 +41,7 @@ temp = temp %>% arrange(ideology)
 plot(temp$ideology)
 text(temp$ideology, labels = temp$justiceName, pos=4, cex=0.8, col = 4)
 
-
+print(stan_fit_0, pars = c('alpha','beta','delta'))
 
 
 

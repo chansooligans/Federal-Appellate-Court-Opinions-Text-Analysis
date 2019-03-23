@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/173956/",
+  "absolute_url": "/opinion/173956/united-states-v-figueroa-cartagena/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/173956/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-08-24T17:12:25Z",
+  "date_modified": "2017-03-24T09:07:05.626542Z",
+  "type": "010combined",
+  "sha1": "e574246ebaa88da3fc1af98ff59d7146d74c37d6",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-2110E-01A.pdf",
+  "local_path": "pdf/2010/08/24/US_v._Figueroa-Cartagena.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 08-2110\n\n                    UNITED STATES OF AMERICA,\n\n                            Appellee,\n\n                               v.\n\n                   NELIZA FIGUEROA-CARTAGENA,\n\n                      Defendant, Appellant.\n\n\n\n                          ERRATA SHEET\n\n\n     The opinion of this Court issued on July 16, 2010, is amended\nas follows:\n\n     On page 41, line 14 of footnote 27: replace \"Maj. Op. at 9\nn.7.\" with \"Maj. Op. at 9 n.9.\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

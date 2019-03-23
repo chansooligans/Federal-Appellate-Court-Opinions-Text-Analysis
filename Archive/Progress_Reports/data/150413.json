@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/150413/",
+  "absolute_url": "/opinion/150413/toribio-chavez-v-holder/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/150413/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-07-12T18:47:31Z",
+  "date_modified": "2017-03-24T07:13:50.446427Z",
+  "type": "010combined",
+  "sha1": "13e74a24a79e57d6c23acf92cb18e32a84282782",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1760E-01A.pdf",
+  "local_path": "pdf/2010/07/12/Toribio-Chavez_v._Holder.pdf",
+  "plain_text": "          United States Court of Appeals\n                      For the First Circuit\n\n\nNo. 09-1760\n\n                     CRISPIN TORIBIO-CHAVEZ,\n\n                           Petitioner,\n\n                                v.\n\n              ERIC H. HOLDER, JR., ATTORNEY GENERAL,\n\n                           Respondent.\n\n\n                           ERRATA SHEET\n\n     The opinion of this Court issued on July 8, 2010 is amended\nas follows:\n\n     On page 7, line 2, change \"fist\" to \"first\".\n\n     On page 14, footnote 6, line 8, change \"Gozales\" to\n\"Gonzales\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

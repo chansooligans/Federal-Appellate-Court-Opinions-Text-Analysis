@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/148236/",
+  "absolute_url": "/opinion/148236/united-states-v-cardosa/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/148236/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-06-09T19:43:03Z",
+  "date_modified": "2017-03-24T06:58:01.416086Z",
+  "type": "010combined",
+  "sha1": "4f60c20fb285b66e066b15efb080c3027817bd57",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-1216E-01A.pdf",
+  "local_path": "pdf/2010/06/09/US_v._Cardosa.pdf",
+  "plain_text": "              United States Court of Appeals\n                       For the First Circuit\n\nNo. 09-1216\n\n                      UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                 v.\n\n                           MANUEL CARDOSA,\n\n                        Defendant, Appellant.\n                         ____________________\n\nNo. 09-1231\n\n                      UNITED STATES OF AMERICA,\n\n                              Appellee,\n\n                                 v.\n\n                          EDWIN RODRIGUEZ,\n\n                        Defendant, Appellant.\n\n\n                            ERRATA SHEET\n\n     The opinion of this Court, issued on May 28, 2010, should be\n\namended as follows.\n\n     On page 7, 1st line of last paragraph, replace \"is\" with \"was\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

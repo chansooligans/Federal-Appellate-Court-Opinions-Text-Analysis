@@ -1,0 +1,23 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/182899/",
+  "absolute_url": "/opinion/182899/latin-american-music-co-v-ascap/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/182899/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2011-01-18T16:39:30Z",
+  "date_modified": "2017-03-24T09:49:47.503881Z",
+  "type": "010combined",
+  "sha1": "94fb0b90f6d5df6784a01d7cc6753b57b6aeaed8",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/08-1498E-01A.pdf",
+  "local_path": "pdf/2011/01/18/Latin_American_Music_Company_v._American_Society_of_Composers.pdf",
+  "plain_text": "          United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 08-1498\n\nLATIN AMERICAN MUSIC COMPANY, d/b/a Asociación de Compositores y\n    Editores de Música Latinoamericana (ACEMLA); ASOCIACIÓN DE\n   COMPOSITORES Y EDITORES DE MÚSICA LATINOAMERICANA (ACEMLA),\n\n                     Plaintiffs, Appellants,\n\n                               v.\n\n      AMERICAN SOCIETY OF COMPOSERS AUTHORS AND PUBLISHERS,\n\n                      Defendants, Appellee.\n\n\n                          ERRATA SHEET\n\n     The opinion of this Court issued on December 28, 2010, is\namended as follows:\n\n     On page 3, line 15, \"§ 101,\" is deleted\n\n     On page 4, lines 16-17, \"Fed. R. App. P.\" is substituted for\n\"First Circuit Local Rule\"\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "",
+  "extracted_by_ocr": false,
+  "opinions_cited": []
+}

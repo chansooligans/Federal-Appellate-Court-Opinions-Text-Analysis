@@ -1,0 +1,25 @@
+{
+  "resource_uri": "http://www.courtlistener.com/api/rest/v3/opinions/180215/",
+  "absolute_url": "/opinion/180215/freedom-from-religion-foundation-v-hanover-school/",
+  "cluster": "http://www.courtlistener.com/api/rest/v3/clusters/180215/",
+  "author": null,
+  "joined_by": [],
+  "author_str": "",
+  "per_curiam": false,
+  "date_created": "2010-12-01T20:51:56Z",
+  "date_modified": "2017-03-24T09:37:29.832785Z",
+  "type": "010combined",
+  "sha1": "f066128ce5bfb9dd35f7749880283bc9a05c2d9e",
+  "page_count": 1,
+  "download_url": "http://www.ca1.uscourts.gov/pdf.opinions/09-2473E-01A.pdf",
+  "local_path": "pdf/2010/12/01/Freedom_From_Religion_Foundati_v._US.pdf",
+  "plain_text": "          United States Court of Appeals\n                       For the First Circuit\n\n\nNo. 09-2473\n\n              FREEDOM FROM RELIGION FOUNDATION, ET AL.,\n\n                       Plaintiffs, Appellants,\n\n                                 v.\n\n                  HANOVER SCHOOL DISTRICT, ET AL.,\n\n                       Defendants, Appellees.\n\n\n\n                            ERRATA SHEET\n\n\n     The opinion of this Court issued on November 12, 2010, is\namended as follows:\n\n     On page 9, footnote 13, line 4, \"1007 (2010)\" is changed to\n\"1007 (9th Cir. 2010)\".\n\n     On page 14, line 9, \"Three-factored\" is changed to \"Three-\nFactored\".\n\n     On page 24, footnote 20, line 4, \"the pledge\" is changed to\n\"such a pledge\".\n\n     On page 27, line 19, insert \"Freedom From Religion Found. v.\nHanover Sch. Dist., 665 F. Supp. 2d 58, 72 (D.N.H. 2009).\" before\n\"Therefore\".\n\f",
+  "html": "",
+  "html_lawbox": "",
+  "html_columbia": null,
+  "html_with_citations": "<pre class=\"inline\">          United States Court of Appeals\n                       For the First Circuit\n\n\nNo. 09-2473\n\n              FREEDOM FROM RELIGION FOUNDATION, ET AL.,\n\n                       Plaintiffs, Appellants,\n\n                                 v.\n\n                  HANOVER SCHOOL DISTRICT, ET AL.,\n\n                       Defendants, Appellees.\n\n\n\n                            ERRATA SHEET\n\n\n     The opinion of this Court issued on November 12, 2010, is\namended as follows:\n\n     On page 9, footnote 13, line 4, \"1007 (2010)\" is changed to\n\"1007 (9th Cir. 2010)\".\n\n     On page 14, line 9, \"Three-factored\" is changed to \"Three-\nFactored\".\n\n     On page 24, footnote 20, line 4, \"the pledge\" is changed to\n\"such a pledge\".\n\n     On page 27, line 19, insert \"Freedom From Religion Found. v.\nHanover Sch. Dist., </pre><span class=\"citation\" data-id=\"2513009\"><a href=\"/opinion/2513009/freedom-from-religion-foundation-v-hanover-school/\"><span class=\"volume\">665</span> <span class=\"reporter\">F. Supp. 2d</span> <span class=\"page\">58</span></a></span><pre class=\"inline\">, 72 (D.N.H. 2009).\" before\n\"Therefore\".\n\f</pre>",
+  "extracted_by_ocr": false,
+  "opinions_cited": [
+    "http://www.courtlistener.com/api/rest/v3/opinions/2513009/"
+  ]
+}
