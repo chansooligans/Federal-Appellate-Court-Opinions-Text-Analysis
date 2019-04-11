@@ -304,33 +304,27 @@ if(!MAC.USER){
                                   thread = 6, 
                                   t = 1e-04, 
                                   verbose = 2)
-} 
-
-```
-
-```{r}
-# The word vectors are based on the decisions themselves
-# However, if I used word vectors based on external data, such as Wikipedia data, then 
-# I can use function below to keep only word-vectors that appear in decisions corpus here
-# This helps with computation time
-init = textTinyR::Doc2Vec$new(token_list = clust_vec$token, 
+  
+  # The word vectors are based on the decisions themselves
+  # However, if I used word vectors based on external data, such as Wikipedia data, then 
+  # I can use function below to keep only word-vectors that appear in decisions corpus here
+  # This helps with computation time
+  init = textTinyR::Doc2Vec$new(token_list = clust_vec$token, 
                               word_vector_FILE = 'models/rt_fst_model.vec',
                               print_every_rows = 20000, # specifies print intervals (frequent outputs can slow down function)
                               verbose = TRUE, # whether to print information or not
                               copy_data = FALSE) # use of external pointer
+  
+  
+  # Use Word Vectors to Compute Document Vectors
+  # Three different methods: sum_sqrt, min_max_norm, idf
+  # see documentation for details: https://cran.r-project.org/web/packages/textTinyR/textTinyR.pdf
+  doc2_sum = init$doc2vec_methods(method = "sum_sqrt", threads = 6)
+  doc2_norm = init$doc2vec_methods(method = "min_max_norm", threads = 6)
+  doc2_idf = init$doc2vec_methods(method = "idf", global_term_weights = gl_term_w, threads = 6)
+} 
 
-
-# Use Word Vectors to Compute Document Vectors
-# Three different methods: sum_sqrt, min_max_norm, idf
-# see documentation for details: https://cran.r-project.org/web/packages/textTinyR/textTinyR.pdf
-doc2_sum = init$doc2vec_methods(method = "sum_sqrt", threads = 6)
-doc2_norm = init$doc2vec_methods(method = "min_max_norm", threads = 6)
-doc2_idf = init$doc2vec_methods(method = "idf", global_term_weights = gl_term_w, threads = 6)
 ```
-
-
-
-
 
 
 ###################################################################################################################

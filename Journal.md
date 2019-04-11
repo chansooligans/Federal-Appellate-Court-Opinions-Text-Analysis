@@ -83,3 +83,31 @@ Accomplishments:
 1. Extract year from opinions
 2. Add step of de-meaning document vectors for Feder Circuit Court 1 by Year
 3. Include Circuit Court 2 into Analysis
+
+## Week 8: 3/18/2019
+
+Accomplishments:
+1. Include Circuit Court 3 and 4
+2. De-mean by year and by court for all 4 circuits
+
+## Week 9: 3/25/2019
+ 
+ Accomplishments:
+ 1. Prepare midterm presentations 
+
+## Week 10: 4/1/2019
+
+N/A
+
+## Week 11: 4/8/2019
+
+Questions:
+- Why is it that even after I de-mean DOCUMENTS by year and by circuit, I continue to see time trends after plotting the first two principle components?
+- Am I seeing topic-effects?
+- The # of cases by year is not uniform. There are far fewer cases in the early 1900s than late 1900s. Is this a problem?
+
+
+Ideas:
+- Yoav suggested that I identify canonical liberal vs conservative cases -- use that to identify the vector that represents ideology. Then project documents onto that vector.
+
+
